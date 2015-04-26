@@ -4,5 +4,11 @@ import grails.rest.RestfulController
 
 class CanchaController extends RestfulController {
 
-    def index() { }
+    def index() {
+     redirect action: 'hello'
+    }
+
+    def hello() {
+            render "hello"
+        }
 }

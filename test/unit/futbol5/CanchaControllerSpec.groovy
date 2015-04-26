@@ -15,6 +15,19 @@ class CanchaControllerSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-    }
+    void "test hello"() {
+            when:
+            controller.hello()
+
+            then:
+            response.text == 'hello'
+        }
+
+    void 'test index'() {
+            when:
+            controller.index()
+
+            then:
+            response.redirectedUrl == '/cancha/hello'
+        }
 }

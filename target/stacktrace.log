@@ -77,3 +77,93 @@ java.lang.Exception: No tests found matching grails test target pattern filter f
 java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@1c3cda
 	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
 	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2015-04-26 18:17:07,757 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/simple/hello'
+|        |             |
+|        /cancha/hello false
+|                      6 differences (53% similarity)
+|                      /(cancha)/hello
+|                      /(simple)/hello
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1104c9b
+
+	at futbol5.CanchaControllerSpec.test index(CanchaControllerSpec.groovy:31)
+2015-04-26 18:17:07,808 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/simple/hello'
+|        |             |
+|        /cancha/hello false
+|                      6 differences (53% similarity)
+|                      /(cancha)/hello
+|                      /(simple)/hello
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1104c9b
+
+	at futbol5.CanchaControllerSpec.test index(CanchaControllerSpec.groovy:31)
+2015-04-26 18:17:07,861 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/simple/hello'
+|        |             |
+|        /cancha/hello false
+|                      6 differences (53% similarity)
+|                      /(cancha)/hello
+|                      /(simple)/hello
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1104c9b
+
+	at futbol5.CanchaControllerSpec.test index(CanchaControllerSpec.groovy:31)
+2015-04-26 18:17:07,862 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/simple/hello'
+|        |             |
+|        /cancha/hello false
+|                      6 differences (53% similarity)
+|                      /(cancha)/hello
+|                      /(simple)/hello
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1104c9b
+
+	at futbol5.CanchaControllerSpec.test index(CanchaControllerSpec.groovy:31)
+2015-04-26 18:17:07,918 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/simple/hello'
+|        |             |
+|        /cancha/hello false
+|                      6 differences (53% similarity)
+|                      /(cancha)/hello
+|                      /(simple)/hello
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1104c9b
+
+	at futbol5.CanchaControllerSpec.test index(CanchaControllerSpec.groovy:31)
+2015-04-26 18:17:07,918 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/simple/hello'
+|        |             |
+|        /cancha/hello false
+|                      6 differences (53% similarity)
+|                      /(cancha)/hello
+|                      /(simple)/hello
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1104c9b
+
+	at futbol5.CanchaControllerSpec.test index(CanchaControllerSpec.groovy:31)
+2015-04-26 18:17:09,061 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: controller for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.test something(CanchaSpec.groovy:20)
+2015-04-26 18:17:09,162 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: controller for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.test something(CanchaSpec.groovy:20)
+2015-04-26 18:17:09,180 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: controller for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.test something(CanchaSpec.groovy:20)
+2015-04-26 18:17:09,182 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: controller for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.test something(CanchaSpec.groovy:20)
+2015-04-26 18:17:09,185 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: controller for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.test something(CanchaSpec.groovy:20)
+2015-04-26 18:17:09,186 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: controller for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.test something(CanchaSpec.groovy:20)
