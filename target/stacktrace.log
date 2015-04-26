@@ -167,3 +167,357 @@ groovy.lang.MissingPropertyException: No such property: controller for class: fu
 2015-04-26 18:17:09,186 [main] ERROR StackTrace  - Full Stack Trace:
 groovy.lang.MissingPropertyException: No such property: controller for class: futbol5.CanchaSpec
 	at futbol5.CanchaSpec.test something(CanchaSpec.groovy:20)
+2015-04-26 18:44:09,403 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:44:09,428 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:44:09,432 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:44:09,432 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:44:09,479 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:44:09,479 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:48:40,934 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:48:40,940 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:48:40,946 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:48:40,946 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:48:40,984 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:48:40,984 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:56:34,585 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:56:34,623 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:56:34,628 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:56:34,628 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:56:34,634 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 18:56:34,634 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: cancha for class: futbol5.CanchaSpec
+	at futbol5.CanchaSpec.setup(CanchaSpec.groovy:14)
+2015-04-26 19:27:50,717 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:27:50,727 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:27:50,727 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:27:50,727 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:27:50,737 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:27:50,737 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:29:08,252 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:29:08,256 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:29:08,261 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:29:08,261 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:29:08,267 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:29:08,267 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:55)
+2015-04-26 19:30:24,818 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:30:24,828 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:30:24,828 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:30:24,828 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:30:24,838 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:30:24,838 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:32:52,315 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:32:52,325 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:32:52,335 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:32:52,335 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:32:52,345 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:32:52,345 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : (unsaved)
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:37:01,775 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : 2
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:37:01,779 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : 2
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:37:01,785 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : 2
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:37:01,785 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : 2
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:37:01,790 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : 2
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-04-26 19:37:01,790 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!c2.validate()
+||  |
+||  true
+|futbol5.Cancha : 2
+false
+
+	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
