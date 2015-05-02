@@ -15,6 +15,25 @@ class CanchaControllerSpec extends Specification {
     def cleanup() {
     }
 
+    void "listado de canchas"() {
+            given: "existen 10 canchas"
+                10.times{
+                    new Cancha(
+                        nombre: "Cancha_${it}"
+                        direccion: "dir"
+                        telefono: "tel"
+                        precio: ${it}
+                    ).save(failOnError: true)
+                }
+
+            when: "se pide la lista de canchas"
+            def model = controller.index();
+
+            then: "el modelo retornado contiene todos los elementos"
+            model.usuarios.size() == 10
+            model.usuarios.every { it.nombre.startsWith('Cancha_') }
+        }
+
     void "test hello"() {
             when:
             controller.hello()
