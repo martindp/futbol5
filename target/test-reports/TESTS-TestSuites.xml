@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="Proyectos-PC" id="0" name="CanchaControllerSpec" package="futbol5" tests="1" time="9.059" timestamp="2015-05-04T02:43:14">
+  <testsuite errors="0" failures="1" hostname="Proyectos-PC" id="0" name="CanchaPersistenceSpec" package="futbol5" tests="1" time="0.436" timestamp="2015-05-04T04:08:00">
       <properties />
 
-      <testcase classname="futbol5.CanchaControllerSpec" name="listado de canchas" time="8.98">
-          <error message="No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@111620a]&#xa;Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@111620a]
+      <testcase classname="futbol5.CanchaPersistenceSpec" name="crud de canchas" time="0.435">
+          <failure message="Condition not satisfied:&#xa;&#xa;canchaService.list().size() ==count + 1&#xa;|             |      |      | |     |&#xa;|             []     0      | 0     1&#xa;|                           false&#xa;futbol5.CanchaService@11fadfa&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+canchaService.list().size() ==count + 1
+|             |      |      | |     |
+|             []     0      | 0     1
+|                           false
+futbol5.CanchaService@11fadfa
+
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:32)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from crud de canchas--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from crud de canchas--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="2" failures="0" hostname="Proyectos-PC" id="1" name="CanchaControllerSpec" package="futbol5" tests="2" time="4.942" timestamp="2015-05-04T04:07:38">
+      <properties />
+
+      <testcase classname="futbol5.CanchaControllerSpec" name="listado de canchas" time="4.831">
+          <error message="No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5@28fee1]&#xa;Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5@28fee1]
 Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
 	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
 	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
@@ -12,17 +36,27 @@ Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure)
 
       </testcase>
 
+      <testcase classname="futbol5.CanchaControllerSpec" name="crear cancha" time="0.048">
+          <error message="No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3) values: [futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3@1a3e05c]&#xa;Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3) values: [futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3@1a3e05c]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.crear cancha(CanchaControllerSpec.groovy:42)
+</error>
+
+      </testcase>
+
       <system-out><![CDATA[--Output from listado de canchas--
+--Output from crear cancha--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from listado de canchas--
+--Output from crear cancha--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Proyectos-PC" id="1" name="CanchaSpec" package="futbol5" tests="1" time="4.811" timestamp="2015-05-04T02:43:23">
+  <testsuite errors="0" failures="0" hostname="Proyectos-PC" id="2" name="CanchaSpec" package="futbol5" tests="1" time="2.416" timestamp="2015-05-04T04:07:43">
       <properties />
 
-      <testcase classname="futbol5.CanchaSpec" name="Ningun dato de la cancha puede ser nulo" time="4.746" />
+      <testcase classname="futbol5.CanchaSpec" name="Ningun dato de la cancha puede ser nulo" time="2.382" />
 
       <system-out><![CDATA[--Output from Ningun dato de la cancha puede ser nulo--
 ]]></system-out>

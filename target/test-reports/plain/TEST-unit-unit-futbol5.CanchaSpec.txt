@@ -1,5 +1,5 @@
 Testsuite: futbol5.CanchaSpec
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 4,811 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 2,416 sec
 ------------- Standard Output ---------------
 --Output from Ningun dato de la cancha puede ser nulo--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 4,811 sec
 --Output from Ningun dato de la cancha puede ser nulo--
 ------------- ---------------- ---------------
 
-Testcase: Ningun dato de la cancha puede ser nulo took 4,746 sec
+Testcase: Ningun dato de la cancha puede ser nulo took 2,382 sec

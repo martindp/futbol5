@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="Proyectos-PC" name="futbol5.CanchaPersistenceSpec" tests="1" time="0.436" timestamp="2015-05-04T04:08:00">
+  <properties />
+  <testcase classname="futbol5.CanchaPersistenceSpec" name="crud de canchas" time="0.435">
+    <failure message="Condition not satisfied:&#xa;&#xa;canchaService.list().size() ==count + 1&#xa;|             |      |      | |     |&#xa;|             []     0      | 0     1&#xa;|                           false&#xa;futbol5.CanchaService@11fadfa&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+canchaService.list().size() ==count + 1
+|             |      |      | |     |
+|             []     0      | 0     1
+|                           false
+futbol5.CanchaService@11fadfa
+
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:32)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from crud de canchas--
+]]></system-out>
+  <system-err><![CDATA[--Output from crud de canchas--
+]]></system-err>
+</testsuite>

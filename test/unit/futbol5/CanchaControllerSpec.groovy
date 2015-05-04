@@ -33,4 +33,22 @@ class CanchaControllerSpec extends Specification {
             model.canchas.size() == 10
             model.canchas.every { it.nombre.startsWith('Cancha_') }
         }
+    void "crear cancha"() {
+                given: "una cancha"
+                        def cancha = new Cancha(
+                            nombre: "Cancha1",
+                            direccion: "dir",
+                            telefono: "telll",
+                            precio: ${it}
+                        )
+
+
+                when: "se crea una cancha"
+                controller.save(cancha);
+                def model = controller.index();
+
+                then: "el modelo retornado contiene la cancha creada"
+                model.canchas.any { it.nombre.startsWith('Cancha1') }
+            }
+
 }
