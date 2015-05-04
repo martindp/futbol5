@@ -1,5 +1,5 @@
 Testsuite: futbol5.CanchaControllerSpec
-Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 6,321 sec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 9,059 sec
 ------------- Standard Output ---------------
 --Output from listado de canchas--
 ------------- ---------------- ---------------
@@ -7,7 +7,7 @@ Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 6,321 sec
 --Output from listado de canchas--
 ------------- ---------------- ---------------
 
-Testcase: listado de canchas took 6,185 sec
+Testcase: listado de canchas took 8,845 sec
 	Caused an ERROR
 No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@111620a]
 Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)

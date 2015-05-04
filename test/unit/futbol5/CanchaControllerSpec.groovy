@@ -30,7 +30,7 @@ class CanchaControllerSpec extends Specification {
             def model = controller.index();
 
             then: "el modelo retornado contiene todos los elementos"
-            model.usuarios.size() == 10
-            model.usuarios.every { it.nombre.startsWith('Cancha_') }
+            model.canchas.size() == 10
+            model.canchas.every { it.nombre.startsWith('Cancha_') }
         }
 }
