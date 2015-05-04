@@ -11,9 +11,9 @@ class CanchaController extends RestfulController {
     def save(){
         def c = new Cancha(
             nombre: params.nombre,
-            direccion: "diredire",
-            telefono: "123",
-            precio: "100"
+            direccion: params.direccion,
+            telefono: params.telefono,
+            precio: params.precio
         ).save(failOnError: true)
         [ cancha: c ]
     }

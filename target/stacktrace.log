@@ -3095,3 +3095,564 @@ canchaService.list().size() == count + 1
 futbol5.CanchaService@21e60eed
 
 	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
+2015-05-04 17:24:19,462 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
+|                           false
+futbol5.CanchaService@e08d871
+
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
+2015-05-04 17:24:19,466 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
+|                           false
+futbol5.CanchaService@e08d871
+
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
+2015-05-04 17:24:19,467 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
+|                           false
+futbol5.CanchaService@e08d871
+
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
+2015-05-04 17:24:19,468 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
+|                           false
+futbol5.CanchaService@e08d871
+
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
+2015-05-04 17:24:19,472 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
+|                           false
+futbol5.CanchaService@e08d871
+
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
+2015-05-04 17:24:19,472 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
+|                           false
+futbol5.CanchaService@e08d871
+
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
+2015-05-04 17:28:11,991 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: wasHeads for class: futbol5.Cancha
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:43)
+2015-05-04 17:28:11,995 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: wasHeads for class: futbol5.Cancha
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:43)
+2015-05-04 17:28:11,997 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: wasHeads for class: futbol5.Cancha
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:43)
+2015-05-04 17:28:11,998 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: wasHeads for class: futbol5.Cancha
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:43)
+2015-05-04 17:28:12,001 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: wasHeads for class: futbol5.Cancha
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:43)
+2015-05-04 17:28:12,001 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: wasHeads for class: futbol5.Cancha
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:43)
+2015-05-04 17:28:54,362 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchasService for class: futbol5.CanchaPersistenceSpec
+Possible solutions: canchaService
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:47)
+2015-05-04 17:28:54,363 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchasService for class: futbol5.CanchaPersistenceSpec
+Possible solutions: canchaService
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:47)
+2015-05-04 17:28:54,363 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchasService for class: futbol5.CanchaPersistenceSpec
+Possible solutions: canchaService
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:47)
+2015-05-04 17:28:54,363 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchasService for class: futbol5.CanchaPersistenceSpec
+Possible solutions: canchaService
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:47)
+2015-05-04 17:28:54,364 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchasService for class: futbol5.CanchaPersistenceSpec
+Possible solutions: canchaService
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:47)
+2015-05-04 17:28:54,364 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchasService for class: futbol5.CanchaPersistenceSpec
+Possible solutions: canchaService
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:47)
+2015-05-04 17:32:39,365 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method delete() on null object
+	at futbol5.CanchaController$$EPBkZe8u.delete(CanchaController.groovy:24)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:32:39,367 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method delete() on null object
+	at futbol5.CanchaController$$EPBkZe8u.delete(CanchaController.groovy:24)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:32:39,368 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method delete() on null object
+	at futbol5.CanchaController$$EPBkZe8u.delete(CanchaController.groovy:24)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:32:39,368 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method delete() on null object
+	at futbol5.CanchaController$$EPBkZe8u.delete(CanchaController.groovy:24)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:32:39,371 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method delete() on null object
+	at futbol5.CanchaController$$EPBkZe8u.delete(CanchaController.groovy:24)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:32:39,371 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method delete() on null object
+	at futbol5.CanchaController$$EPBkZe8u.delete(CanchaController.groovy:24)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:35:26,635 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Cancha.count() == count - 1
+       |       |  |     |
+       1       |  1     0
+               false
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:35:26,638 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+Cancha.count() == count - 1
+       |       |  |     |
+       1       |  1     0
+               false
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:35:26,639 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Cancha.count() == count - 1
+       |       |  |     |
+       1       |  1     0
+               false
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:35:26,639 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Cancha.count() == count - 1
+       |       |  |     |
+       1       |  1     0
+               false
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:35:26,642 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Cancha.count() == count - 1
+       |       |  |     |
+       1       |  1     0
+               false
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:35:26,643 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Cancha.count() == count - 1
+       |       |  |     |
+       1       |  1     0
+               false
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:36:44,261 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:36:44,261 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:36:44,262 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:36:44,262 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:36:44,262 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:36:44,262 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:39:23,223 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), edit(), find(), wait(long), print(java.io.PrintWriter)
+	at org.codehaus.groovy.grails.plugins.web.api.ControllerTagLibraryApi.methodMissing(ControllerTagLibraryApi.java:95)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:39:23,231 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), edit(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:39:23,234 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), edit(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:39:23,236 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), edit(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:39:23,245 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), edit(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:39:23,246 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.list() is applicable for argument types: () values: []
+Possible solutions: is(java.lang.Object), wait(), edit(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:66)
+2015-05-04 17:41:24,325 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.canchas.size() == count - 1
+|     |       |      |  |     |
+|     |       1      |  1     0
+|     |              false
+|     [futbol5.Cancha : 1]
+[canchas:[futbol5.Cancha : 1]]
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:41:24,329 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.canchas.size() == count - 1
+|     |       |      |  |     |
+|     |       1      |  1     0
+|     |              false
+|     [futbol5.Cancha : 1]
+[canchas:[futbol5.Cancha : 1]]
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:41:24,330 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.canchas.size() == count - 1
+|     |       |      |  |     |
+|     |       1      |  1     0
+|     |              false
+|     [futbol5.Cancha : 1]
+[canchas:[futbol5.Cancha : 1]]
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:41:24,330 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.canchas.size() == count - 1
+|     |       |      |  |     |
+|     |       1      |  1     0
+|     |              false
+|     [futbol5.Cancha : 1]
+[canchas:[futbol5.Cancha : 1]]
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:41:24,334 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.canchas.size() == count - 1
+|     |       |      |  |     |
+|     |       1      |  1     0
+|     |              false
+|     [futbol5.Cancha : 1]
+[canchas:[futbol5.Cancha : 1]]
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:41:24,334 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.canchas.size() == count - 1
+|     |       |      |  |     |
+|     |       1      |  1     0
+|     |              false
+|     [futbol5.Cancha : 1]
+[canchas:[futbol5.Cancha : 1]]
+
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:42:20,285 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method list() on null object
+	at futbol5.CanchaController$$EPBkc5Hs.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:31)
+2015-05-04 17:42:20,285 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method list() on null object
+	at futbol5.CanchaController$$EPBkc5Hs.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:31)
+2015-05-04 17:42:20,285 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method list() on null object
+	at futbol5.CanchaController$$EPBkc5Hs.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:31)
+2015-05-04 17:42:20,285 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method list() on null object
+	at futbol5.CanchaController$$EPBkc5Hs.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:31)
+2015-05-04 17:42:20,285 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method list() on null object
+	at futbol5.CanchaController$$EPBkc5Hs.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:31)
+2015-05-04 17:42:20,285 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method list() on null object
+	at futbol5.CanchaController$$EPBkc5Hs.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:31)
+2015-05-04 17:42:20,347 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:42:20,347 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:42:20,348 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:42:20,348 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:42:20,348 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:42:20,348 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:67)
+2015-05-04 17:46:15,206 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:35)
+2015-05-04 17:46:15,209 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:35)
+2015-05-04 17:46:15,209 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:35)
+2015-05-04 17:46:15,209 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:35)
+2015-05-04 17:46:15,215 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:35)
+2015-05-04 17:46:15,215 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:35)
+2015-05-04 17:46:15,320 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:46:15,320 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:46:15,320 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:46:15,320 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:46:15,320 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:46:15,320 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:48:20,107 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: static futbol5.CanchaService.list() is applicable for argument types: () values: []
+Possible solutions: list(), is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaController.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:32)
+2015-05-04 17:48:20,112 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: static futbol5.CanchaService.list() is applicable for argument types: () values: []
+Possible solutions: list(), is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaController.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:32)
+2015-05-04 17:48:20,116 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: static futbol5.CanchaService.list() is applicable for argument types: () values: []
+Possible solutions: list(), is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaController.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:32)
+2015-05-04 17:48:20,116 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: static futbol5.CanchaService.list() is applicable for argument types: () values: []
+Possible solutions: list(), is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaController.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:32)
+2015-05-04 17:48:20,119 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: static futbol5.CanchaService.list() is applicable for argument types: () values: []
+Possible solutions: list(), is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaController.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:32)
+2015-05-04 17:48:20,120 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: static futbol5.CanchaService.list() is applicable for argument types: () values: []
+Possible solutions: list(), is(java.lang.Object), wait(), find(), wait(long), print(java.io.PrintWriter)
+	at futbol5.CanchaController.index(CanchaController.groovy:10)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:32)
+2015-05-04 17:48:20,173 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:48:20,174 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:48:20,174 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:48:20,174 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:48:20,174 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:48:20,174 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:68)
+2015-05-04 17:49:33,108 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:22)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:21)
+2015-05-04 17:49:33,110 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:22)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:21)
+2015-05-04 17:49:33,111 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:22)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:21)
+2015-05-04 17:49:33,111 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:22)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:21)
+2015-05-04 17:49:33,117 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:22)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:21)
+2015-05-04 17:49:33,117 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:22)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:21)
+2015-05-04 17:49:33,153 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.crear cancha(CanchaControllerSpec.groovy:41)
+2015-05-04 17:49:33,153 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.crear cancha(CanchaControllerSpec.groovy:41)
+2015-05-04 17:49:33,153 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.crear cancha(CanchaControllerSpec.groovy:41)
+2015-05-04 17:49:33,153 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.crear cancha(CanchaControllerSpec.groovy:41)
+2015-05-04 17:49:33,153 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.crear cancha(CanchaControllerSpec.groovy:41)
+2015-05-04 17:49:33,153 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.crear cancha(CanchaControllerSpec.groovy:41)
+2015-05-04 17:49:33,165 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:54)
+2015-05-04 17:49:33,165 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:54)
+2015-05-04 17:49:33,166 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:54)
+2015-05-04 17:49:33,166 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:54)
+2015-05-04 17:49:33,166 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:54)
+2015-05-04 17:49:33,166 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Cancha] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:54)
+2015-05-04 17:52:13,525 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchaService for class: futbol5.CanchaController
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:52:13,531 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchaService for class: futbol5.CanchaController
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:52:13,536 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchaService for class: futbol5.CanchaController
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:52:13,540 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchaService for class: futbol5.CanchaController
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:52:13,546 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchaService for class: futbol5.CanchaController
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:52:13,547 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: canchaService for class: futbol5.CanchaController
+	at futbol5.CanchaControllerSpec.borrar cancha(CanchaControllerSpec.groovy:62)
+2015-05-04 17:59:09,842 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.listado de usuarios_closure1(UsuarioControllerSpec.groovy:21)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at futbol5.UsuarioControllerSpec.listado de usuarios(UsuarioControllerSpec.groovy:20)
+2015-05-04 17:59:09,844 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.listado de usuarios_closure1(UsuarioControllerSpec.groovy:21)
+	at futbol5.UsuarioControllerSpec.listado de usuarios(UsuarioControllerSpec.groovy:20)
+2015-05-04 17:59:09,845 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.listado de usuarios_closure1(UsuarioControllerSpec.groovy:21)
+	at futbol5.UsuarioControllerSpec.listado de usuarios(UsuarioControllerSpec.groovy:20)
+2015-05-04 17:59:09,845 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.listado de usuarios_closure1(UsuarioControllerSpec.groovy:21)
+	at futbol5.UsuarioControllerSpec.listado de usuarios(UsuarioControllerSpec.groovy:20)
+2015-05-04 17:59:09,848 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.listado de usuarios_closure1(UsuarioControllerSpec.groovy:21)
+	at futbol5.UsuarioControllerSpec.listado de usuarios(UsuarioControllerSpec.groovy:20)
+2015-05-04 17:59:09,848 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.listado de usuarios_closure1(UsuarioControllerSpec.groovy:21)
+	at futbol5.UsuarioControllerSpec.listado de usuarios(UsuarioControllerSpec.groovy:20)
+2015-05-04 17:59:09,860 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.crear usuario(UsuarioControllerSpec.groovy:37)
+2015-05-04 17:59:09,860 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.crear usuario(UsuarioControllerSpec.groovy:37)
+2015-05-04 17:59:09,860 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.crear usuario(UsuarioControllerSpec.groovy:37)
+2015-05-04 17:59:09,860 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.crear usuario(UsuarioControllerSpec.groovy:37)
+2015-05-04 17:59:09,860 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.crear usuario(UsuarioControllerSpec.groovy:37)
+2015-05-04 17:59:09,860 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.crear usuario(UsuarioControllerSpec.groovy:37)
+2015-05-04 17:59:09,871 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.borrar usuario(UsuarioControllerSpec.groovy:51)
+2015-05-04 17:59:09,871 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.borrar usuario(UsuarioControllerSpec.groovy:51)
+2015-05-04 17:59:09,871 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.borrar usuario(UsuarioControllerSpec.groovy:51)
+2015-05-04 17:59:09,871 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.borrar usuario(UsuarioControllerSpec.groovy:51)
+2015-05-04 17:59:09,871 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.borrar usuario(UsuarioControllerSpec.groovy:51)
+2015-05-04 17:59:09,872 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalStateException: Method on class [futbol5.Usuario] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at futbol5.UsuarioControllerSpec.borrar usuario(UsuarioControllerSpec.groovy:51)

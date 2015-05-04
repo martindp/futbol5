@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="MacBook-Pro-de-Yanina.local" id="0" name="CanchaPersistenceSpec" package="futbol5" tests="1" time="0.029" timestamp="2015-05-04T19:59:01">
+  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="0" name="CanchaPersistenceSpec" package="futbol5" tests="1" time="0.232" timestamp="2015-05-04T21:03:42">
       <properties />
 
-      <testcase classname="futbol5.CanchaPersistenceSpec" name="crud de canchas" time="0.029">
-          <failure message="Condition not satisfied:&#xa;&#xa;canchaService.list().size() == count + 1&#xa;|             |      |      |  |     |&#xa;|             []     0      |  0     1&#xa;|                           false&#xa;futbol5.CanchaService@21e60eed&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
-
-canchaService.list().size() == count + 1
-|             |      |      |  |     |
-|             []     0      |  0     1
-|                           false
-futbol5.CanchaService@21e60eed
-
-	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
-</failure>
-
-      </testcase>
+      <testcase classname="futbol5.CanchaPersistenceSpec" name="crud de canchas" time="0.232" />
 
       <system-out><![CDATA[--Output from crud de canchas--
 ]]></system-out>
@@ -24,14 +12,14 @@ futbol5.CanchaService@21e60eed
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="1" name="CanchaControllerSpec" package="futbol5" tests="3" time="0.211" timestamp="2015-05-04T19:59:00">
+  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="1" name="CanchaControllerSpec" package="futbol5" tests="3" time="2.934" timestamp="2015-05-04T21:03:33">
       <properties />
 
-      <testcase classname="futbol5.CanchaControllerSpec" name="listado de canchas" time="0.162" />
+      <testcase classname="futbol5.CanchaControllerSpec" name="listado de canchas" time="2.819" />
 
-      <testcase classname="futbol5.CanchaControllerSpec" name="crear cancha" time="0.017" />
+      <testcase classname="futbol5.CanchaControllerSpec" name="crear cancha" time="0.06" />
 
-      <testcase classname="futbol5.CanchaControllerSpec" name="borrar cancha" time="0.017" />
+      <testcase classname="futbol5.CanchaControllerSpec" name="borrar cancha" time="0.029" />
 
       <system-out><![CDATA[--Output from listado de canchas--
 --Output from crear cancha--
@@ -44,15 +32,35 @@ futbol5.CanchaService@21e60eed
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="2" name="CanchaSpec" package="futbol5" tests="1" time="0.054" timestamp="2015-05-04T19:59:00">
+  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="2" name="CanchaSpec" package="futbol5" tests="1" time="0.066" timestamp="2015-05-04T21:03:36">
       <properties />
 
-      <testcase classname="futbol5.CanchaSpec" name="Ningun dato de la cancha puede ser nulo" time="0.05" />
+      <testcase classname="futbol5.CanchaSpec" name="Ningun dato de la cancha puede ser nulo" time="0.06" />
 
       <system-out><![CDATA[--Output from Ningun dato de la cancha puede ser nulo--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from Ningun dato de la cancha puede ser nulo--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="3" name="UsuarioControllerSpec" package="futbol5" tests="3" time="0.216" timestamp="2015-05-04T21:03:36">
+      <properties />
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="listado de usuarios" time="0.176" />
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="crear usuario" time="0.016" />
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="borrar usuario" time="0.017" />
+
+      <system-out><![CDATA[--Output from listado de usuarios--
+--Output from crear usuario--
+--Output from borrar usuario--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from listado de usuarios--
+--Output from crear usuario--
+--Output from borrar usuario--
 ]]></system-err>
 
   </testsuite>

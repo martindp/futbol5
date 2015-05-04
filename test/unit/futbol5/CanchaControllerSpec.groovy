@@ -41,6 +41,9 @@ class CanchaControllerSpec extends Specification {
 
         when:
             params.nombre = 'pepe'
+            params.direccion = 'dir'
+            params.telefono = '123'
+            params.precio = '100'
             def modelo = controller.save()
 
         then:
@@ -62,7 +65,8 @@ class CanchaControllerSpec extends Specification {
             controller.delete(cancha)
 
         then:
-            Cancha.count() == count - 1
+            def model = controller.index();
+            model.canchas.size() == count - 1
     }
 
 }

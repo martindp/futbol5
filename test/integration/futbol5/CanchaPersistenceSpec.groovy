@@ -20,13 +20,19 @@ class CanchaPersistenceSpec extends Specification {
     void "crud de canchas"() {
             //List
             when:
+
     		def canchas = canchaService.list()
     		then:
     		def count = canchas.size()
 
     		//Create
     		when:
-    		def c = new Cancha()
+    		def c = new Cancha(
+            	nombre: "Cancha_1",
+                direccion: "dir",
+                telefono: "telll",
+                precio: "1"
+            )
     		canchaService.save(c)
 
     		then:
@@ -34,11 +40,11 @@ class CanchaPersistenceSpec extends Specification {
 
     		//Update
     		when:
-    		c.wasHeads = !c.wasHeads
+    		c.nombre = "Cancha_2"
     		canchaService.save(c)
 
     		then:
-    		assert canchasService.list().size() == count + 1
+    		assert canchaService.list().size() == count + 1
 
     		// Delete
     		when:

@@ -8,9 +8,9 @@ class Cancha {
     String precio
 
     static constraints = {
-    nombre(nullable:false, blank:false, unique:true)
-    direccion(nullable:false, blank:false)
-    telefono(nullable:false, blank:false)
-    precio(nullable:false, blank:false)
+        nombre(nullable:false, blank:false, unique:true)
+        direccion(nullable:false, blank:false)
+        telefono(nullable:false, blank:false)
+        precio(nullable:false, blank:false)
     }
 }
