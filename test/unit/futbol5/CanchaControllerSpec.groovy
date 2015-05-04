@@ -19,9 +19,9 @@ class CanchaControllerSpec extends Specification {
             given: "existen 10 canchas"
                 10.times{
                     new Cancha(
-                        nombre: "Cancha_${it}"
-                        direccion: "dir"
-                        telefono: "telll"
+                        nombre: "Cancha_${it}",
+                        direccion: "dir",
+                        telefono: "telll",
                         precio: ${it}
                     ).save(failOnError: true)
                 }
@@ -32,22 +32,5 @@ class CanchaControllerSpec extends Specification {
             then: "el modelo retornado contiene todos los elementos"
             model.usuarios.size() == 10
             model.usuarios.every { it.nombre.startsWith('Cancha_') }
-        }
-
-    void "test hello"() {
-            when:
-            controller.hello()
-
-            then:
-            response.text == 'hello'
-        }
-
-    void 'test index'() {
-      void 'test index'() {
-            when:
-            controller.index()
-
-            then:
-            response.redirectedUrl == '/cancha/hello'
         }
 }

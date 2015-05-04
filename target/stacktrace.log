@@ -521,3 +521,95 @@ junit.framework.AssertionFailedError: Condition not satisfied:
 false
 
 	at futbol5.CanchaSpec.No se repite el nombre de la cancha(CanchaSpec.groovy:56)
+2015-05-03 23:37:28,306 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@1d28f0a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:37:28,373 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@1d28f0a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:37:28,384 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@1d28f0a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:37:28,385 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@1d28f0a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:37:28,449 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@1d28f0a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:37:28,455 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@1d28f0a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:37:28,878 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.hello() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), delete(), edit(), each(groovy.lang.Closure), getAt(java.lang.String)
+	at org.codehaus.groovy.grails.plugins.web.api.ControllerTagLibraryApi.methodMissing(ControllerTagLibraryApi.java:95)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at futbol5.CanchaControllerSpec.test hello(CanchaControllerSpec.groovy:39)
+2015-05-03 23:37:28,879 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.hello() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), delete(), edit(), each(groovy.lang.Closure), getAt(java.lang.String)
+	at futbol5.CanchaControllerSpec.test hello(CanchaControllerSpec.groovy:39)
+2015-05-03 23:37:28,889 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.hello() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), delete(), edit(), each(groovy.lang.Closure), getAt(java.lang.String)
+	at futbol5.CanchaControllerSpec.test hello(CanchaControllerSpec.groovy:39)
+2015-05-03 23:37:28,891 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.hello() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), delete(), edit(), each(groovy.lang.Closure), getAt(java.lang.String)
+	at futbol5.CanchaControllerSpec.test hello(CanchaControllerSpec.groovy:39)
+2015-05-03 23:37:28,901 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.hello() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), delete(), edit(), each(groovy.lang.Closure), getAt(java.lang.String)
+	at futbol5.CanchaControllerSpec.test hello(CanchaControllerSpec.groovy:39)
+2015-05-03 23:37:28,903 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaController.hello() is applicable for argument types: () values: []
+Possible solutions: sleep(long), sleep(long, groovy.lang.Closure), delete(), edit(), each(groovy.lang.Closure), getAt(java.lang.String)
+	at futbol5.CanchaControllerSpec.test hello(CanchaControllerSpec.groovy:39)
+2015-05-03 23:40:04,914 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@111620a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:40:04,942 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@111620a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:40:04,954 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@111620a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:40:04,956 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@111620a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:40:04,974 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@111620a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
+2015-05-03 23:40:04,980 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure3@111620a]
+Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
+	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
+	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
