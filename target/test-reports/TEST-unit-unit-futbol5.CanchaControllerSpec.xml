@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Proyectos-PC" name="futbol5.CanchaControllerSpec" tests="2" time="3.523" timestamp="2015-04-26T22:51:21">
+  <properties />
+  <testcase classname="futbol5.CanchaControllerSpec" name="test hello" time="3.433" />
+  <testcase classname="futbol5.CanchaControllerSpec" name="test index" time="0.05" />
+  <system-out><![CDATA[--Output from test hello--
+--Output from test index--
+]]></system-out>
+  <system-err><![CDATA[--Output from test hello--
+--Output from test index--
+]]></system-err>
+</testsuite>

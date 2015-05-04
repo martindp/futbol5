@@ -1,6 +1,8 @@
 package futbol5
 
-class UsuarioController {
+import grails.rest.RestfulController
+
+class UsuarioController RestfulController{
 
     def index() { }
 }

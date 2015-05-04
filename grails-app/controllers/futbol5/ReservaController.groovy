@@ -1,6 +1,8 @@
 package futbol5
 
-class ReservaController {
+import grails.rest.RestfulController
+
+class ReservaController RestfulController{
 
     def index() { }
 }
