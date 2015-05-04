@@ -21,7 +21,7 @@ class CanchaControllerSpec extends Specification {
                     new Cancha(
                         nombre: "Cancha_${it}"
                         direccion: "dir"
-                        telefono: "tell"
+                        telefono: "telll"
                         precio: ${it}
                     ).save(failOnError: true)
                 }
