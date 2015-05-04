@@ -7,6 +7,7 @@ import spock.lang.Specification
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
 @TestFor(CanchaController)
+@Mock(Cancha)
 class CanchaControllerSpec extends Specification {
 
     def setup() {
@@ -16,39 +17,52 @@ class CanchaControllerSpec extends Specification {
     }
 
     void "listado de canchas"() {
-            given: "existen 10 canchas"
-                10.times{
-                    new Cancha(
-                        nombre: "Cancha_${it}",
-                        direccion: "dir",
-                        telefono: "telll",
-                        precio: ${it}
-                    ).save(failOnError: true)
-                }
+        given: "existen 10 canchas"
+            10.times{
+                new Cancha(
+                    nombre: "Cancha_${it}",
+                    direccion: "dir",
+                    telefono: "telll",
+                    precio: "${it}"
+                ).save(failOnError: true)
+            }
 
-            when: "se pide la lista de canchas"
+        when: "se pide la lista de canchas"
             def model = controller.index();
 
-            then: "el modelo retornado contiene todos los elementos"
+        then: "el modelo retornado contiene todos los elementos"
             model.canchas.size() == 10
             model.canchas.every { it.nombre.startsWith('Cancha_') }
-        }
+    }
+
     void "crear cancha"() {
-                given: "una cancha"
-                        def cancha = new Cancha(
-                            nombre: "Cancha1",
-                            direccion: "dir",
-                            telefono: "telll",
-                            precio: ${it}
-                        )
+        given:
+            def count = Cancha.count()
 
+        when:
+            params.nombre = 'pepe'
+            def modelo = controller.save()
 
-                when: "se crea una cancha"
-                controller.save(cancha);
-                def model = controller.index();
+        then:
+            modelo.cancha.nombre == 'pepe'
+            Cancha.count() == count + 1
+    }
 
-                then: "el modelo retornado contiene la cancha creada"
-                model.canchas.any { it.nombre.startsWith('Cancha1') }
-            }
+    void "borrar cancha"() {
+        given:
+            def cancha = new Cancha(
+                nombre: "Cancha_1",
+                direccion: "dir",
+                telefono: "telll",
+                precio: "1"
+            ).save(failOnError: true)
+            def count = Cancha.count()
+
+        when:
+            controller.delete(cancha)
+
+        then:
+            Cancha.count() == count - 1
+    }
 
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Proyectos-PC" name="futbol5.CanchaSpec" tests="1" time="2.416" timestamp="2015-05-04T04:07:43">
+<testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" name="futbol5.CanchaSpec" tests="1" time="0.054" timestamp="2015-05-04T19:59:00">
   <properties />
-  <testcase classname="futbol5.CanchaSpec" name="Ningun dato de la cancha puede ser nulo" time="2.382" />
+  <testcase classname="futbol5.CanchaSpec" name="Ningun dato de la cancha puede ser nulo" time="0.05" />
   <system-out><![CDATA[--Output from Ningun dato de la cancha puede ser nulo--
 ]]></system-out>
   <system-err><![CDATA[--Output from Ningun dato de la cancha puede ser nulo--

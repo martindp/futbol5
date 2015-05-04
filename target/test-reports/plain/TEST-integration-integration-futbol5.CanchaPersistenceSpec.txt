@@ -1,5 +1,5 @@
 Testsuite: futbol5.CanchaPersistenceSpec
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0,436 sec
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0,029 sec
 ------------- Standard Output ---------------
 --Output from crud de canchas--
 ------------- ---------------- ---------------
@@ -7,23 +7,23 @@ Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0,436 sec
 --Output from crud de canchas--
 ------------- ---------------- ---------------
 
-Testcase: crud de canchas took 0,399 sec
+Testcase: crud de canchas took 0,028 sec
 	FAILED
 Condition not satisfied:
 
-canchaService.list().size() ==count + 1
-|             |      |      | |     |
-|             []     0      | 0     1
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
 |                           false
-futbol5.CanchaService@11fadfa
+futbol5.CanchaService@21e60eed
 
 junit.framework.AssertionFailedError: Condition not satisfied:
 
-canchaService.list().size() ==count + 1
-|             |      |      | |     |
-|             []     0      | 0     1
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
 |                           false
-futbol5.CanchaService@11fadfa
+futbol5.CanchaService@21e60eed
 
-	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:32)
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
 

@@ -15,13 +15,10 @@
      - All tests </h1>
 <p class="intro">
                         Executed
-                        4
+                        5
                         tests
                     
                         with
-                        2 errors
-
-                        and
                         one failure
                         .
                     </p>
@@ -46,78 +43,6 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite error">
-<div class="header">
-<h2>CanchaControllerSpec</h2>
-<h3>
-                        Executed
-                        2
-                        tests
-                    
-                        with
-                        2 errors
-                        .
-                    </h3>
-</div>
-<div class="testcase clearfix error grid_8 alpha omega" data-name="listado de canchas">
-<div class="grid_3 alpha">
-<p>
-<span class="icon error"></span><b class="testname message error">listado de canchas</b>
-</p>
-<p class="summary">Executed in 4.831 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo">
-<div class="details">
-<p>
-<b class="message">No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5@28fee1]
-Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)</b>
-</p>
-<pre>groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5@28fee1]
-Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
-	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
-	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix error grid_8 alpha omega" data-name="crear cancha">
-<div class="grid_3 alpha">
-<p>
-<span class="icon error"></span><b class="testname message error">crear cancha</b>
-</p>
-<p class="summary">Executed in 0.048 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo">
-<div class="details">
-<p>
-<b class="message">No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3) values: [futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3@1a3e05c]
-Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)</b>
-</p>
-<pre>groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3) values: [futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3@1a3e05c]
-Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
-	at futbol5.CanchaControllerSpec.crear cancha(CanchaControllerSpec.groovy:42)
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="clearfix output footer">
-<div class="sysout">
-<h2>Standard output</h2>
-<pre class="stdout">--Output from listado de canchas--
---Output from crear cancha--
-</pre>
-</div>
-<div class="syserr">
-<h2>System error</h2>
-<pre class="syserr">--Output from listado de canchas--
---Output from crear cancha--
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
 <div class="testsuite failure">
 <div class="header">
 <h2>CanchaPersistenceSpec</h2>
@@ -134,29 +59,29 @@ Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure)
 <p>
 <span class="icon failure"></span><b class="testname message failure">crud de canchas</b>
 </p>
-<p class="summary">Executed in 0.435 seconds.</p>
+<p class="summary">Executed in 0.029 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
 <p>
 <b class="message">Condition not satisfied:
 
-canchaService.list().size() ==count + 1
-|             |      |      | |     |
-|             []     0      | 0     1
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
 |                           false
-futbol5.CanchaService@11fadfa
+futbol5.CanchaService@21e60eed
 </b>
 </p>
 <pre>junit.framework.AssertionFailedError: Condition not satisfied:
 
-canchaService.list().size() ==count + 1
-|             |      |      | |     |
-|             []     0      | 0     1
+canchaService.list().size() == count + 1
+|             |      |      |  |     |
+|             []     0      |  0     1
 |                           false
-futbol5.CanchaService@11fadfa
+futbol5.CanchaService@21e60eed
 
-	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:32)
+	at futbol5.CanchaPersistenceSpec.crud de canchas(CanchaPersistenceSpec.groovy:33)
 </pre>
 </div>
 </div>
@@ -178,6 +103,65 @@ futbol5.CanchaService@11fadfa
 </div>
 <div class="testsuite success">
 <div class="header">
+<h2>CanchaControllerSpec</h2>
+<h3>
+                        Executed
+                        3
+                        tests
+                    
+                        without a single error or failure!
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="listado de canchas">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">listado de canchas</b>
+</p>
+<p class="summary">Executed in 0.162 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="crear cancha">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">crear cancha</b>
+</p>
+<p class="summary">Executed in 0.017 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="borrar cancha">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">borrar cancha</b>
+</p>
+<p class="summary">Executed in 0.017 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from listado de canchas--
+--Output from crear cancha--
+--Output from borrar cancha--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from listado de canchas--
+--Output from crear cancha--
+--Output from borrar cancha--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite success">
+<div class="header">
 <h2>CanchaSpec</h2>
 <h3>
                         A single test executed
@@ -190,7 +174,7 @@ futbol5.CanchaService@11fadfa
 <p>
 <span class="icon success"></span><b class="testname message success">Ningun dato de la cancha puede ser nulo</b>
 </p>
-<p class="summary">Executed in 2.382 seconds.</p>
+<p class="summary">Executed in 0.05 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>

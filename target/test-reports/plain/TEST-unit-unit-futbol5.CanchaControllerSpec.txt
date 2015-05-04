@@ -1,28 +1,16 @@
 Testsuite: futbol5.CanchaControllerSpec
-Tests run: 2, Failures: 0, Errors: 2, Time elapsed: 4,942 sec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0,211 sec
 ------------- Standard Output ---------------
 --Output from listado de canchas--
 --Output from crear cancha--
+--Output from borrar cancha--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from listado de canchas--
 --Output from crear cancha--
+--Output from borrar cancha--
 ------------- ---------------- ---------------
 
-Testcase: listado de canchas took 4,765 sec
-	Caused an ERROR
-No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5@28fee1]
-Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
-groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5) values: [futbol5.CanchaControllerSpec$_spock_feature_0_0_closure1_closure5@28fee1]
-Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
-	at futbol5.CanchaControllerSpec.listado de canchas_closure1(CanchaControllerSpec.groovy:25)
-	at futbol5.CanchaControllerSpec.listado de canchas(CanchaControllerSpec.groovy:20)
-
-Testcase: crear cancha took 0,041 sec
-	Caused an ERROR
-No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3) values: [futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3@1a3e05c]
-Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
-groovy.lang.MissingMethodException: No signature of method: futbol5.CanchaControllerSpec.$() is applicable for argument types: (futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3) values: [futbol5.CanchaControllerSpec$_$spock_feature_0_1_closure3@1a3e05c]
-Possible solutions: is(java.lang.Object), Spy(), any(), Spy(groovy.lang.Closure), Spy(java.lang.Class), Spy(java.util.Map)
-	at futbol5.CanchaControllerSpec.crear cancha(CanchaControllerSpec.groovy:42)
-
+Testcase: listado de canchas took 0,162 sec
+Testcase: crear cancha took 0,017 sec
+Testcase: borrar cancha took 0,017 sec

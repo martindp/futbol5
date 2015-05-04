@@ -9,11 +9,11 @@ class CanchaService {
     		return Cancha.list()
     	}
 
-    	Cancha save( cancha ) {
+    	Cancha save(cancha) {
     		cancha.save()
     	}
 
-    	Cancha delete( cancha ) {
+    	Cancha delete(cancha) {
     		cancha.delete()
     	}
 }

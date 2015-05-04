@@ -30,7 +30,7 @@ class CanchaPersistenceSpec extends Specification {
     		canchaService.save(c)
 
     		then:
-    		assert canchaService.list().size() ==count + 1
+    		assert canchaService.list().size() == count + 1
 
     		//Update
     		when:
