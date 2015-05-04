@@ -43,6 +43,7 @@ class CanchaControllerSpec extends Specification {
         }
 
     void 'test index'() {
+      void 'test index'() {
             when:
             controller.index()
 

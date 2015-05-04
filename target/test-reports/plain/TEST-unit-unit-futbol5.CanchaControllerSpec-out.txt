@@ -1,0 +1,2 @@
+--Output from test hello--
+--Output from test index--

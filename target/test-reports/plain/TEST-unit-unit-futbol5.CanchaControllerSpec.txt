@@ -1,0 +1,13 @@
+Testsuite: futbol5.CanchaControllerSpec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 3,523 sec
+------------- Standard Output ---------------
+--Output from test hello--
+--Output from test index--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test hello--
+--Output from test index--
+------------- ---------------- ---------------
+
+Testcase: test hello took 3,432 sec
+Testcase: test index took 0,05 sec
