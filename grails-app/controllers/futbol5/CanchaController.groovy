@@ -1,6 +1,7 @@
 package futbol5
 
 import grails.rest.RestfulController
+import grails.converters.JSON
 
 class CanchaController extends RestfulController {
     static responseFormats = ['json','xml']
