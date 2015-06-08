@@ -6,7 +6,7 @@ class CanchaController extends RestfulController {
     static responseFormats = ['json','xml']
 
     def index() {
-        render Cancha.list() as JSON
+        render [ canchas: Cancha.list() ] as JSON
     }
 
     def save(){
