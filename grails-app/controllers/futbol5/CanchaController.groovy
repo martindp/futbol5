@@ -3,9 +3,10 @@ package futbol5
 import grails.rest.RestfulController
 
 class CanchaController extends RestfulController {
+    static responseFormats = ['json','xml']
 
     def index() {
-        [ canchas: Cancha.list() ]
+        render Cancha.list() as JSON
     }
 
     def save(){
