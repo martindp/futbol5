@@ -2,7 +2,10 @@ class UrlMappings {
 
 	static mappings = {
 
-        "/cancha/index"(controller: 'cancha', action: 'index')
+		// RESTful list mapping
+		name restEntityList: "/$controller"(parseRequest: true) {
+			action = [GET: "index", POST: "save"]
+		}
 
 	}
 }
