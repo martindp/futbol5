@@ -1,5 +1,5 @@
 Testsuite: futbol5.CanchaControllerSpec
-Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 2,934 sec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 3,157 sec
 ------------- Standard Output ---------------
 --Output from listado de canchas--
 --Output from crear cancha--
@@ -11,6 +11,6 @@ Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 2,934 sec
 --Output from borrar cancha--
 ------------- ---------------- ---------------
 
-Testcase: listado de canchas took 2,82 sec
-Testcase: crear cancha took 0,06 sec
-Testcase: borrar cancha took 0,029 sec
+Testcase: listado de canchas took 3,044 sec
+Testcase: crear cancha took 0,052 sec
+Testcase: borrar cancha took 0,033 sec
