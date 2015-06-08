@@ -5,8 +5,7 @@ import grails.rest.RestfulController
 class CanchaController extends RestfulController {
 
     def index() {
-        'jjjj'
-        //[ canchas: Cancha.list() ]
+        [ canchas: Cancha.list() ]
     }
 
     def save(){
