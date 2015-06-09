@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" name="futbol5.CanchaSpec" tests="1" time="0.083" timestamp="2015-06-08T21:21:04">
-  <properties />
-  <testcase classname="futbol5.CanchaSpec" name="Ningun dato de la cancha puede ser nulo" time="0.078" />
-  <system-out><![CDATA[--Output from Ningun dato de la cancha puede ser nulo--
-]]></system-out>
-  <system-err><![CDATA[--Output from Ningun dato de la cancha puede ser nulo--
-]]></system-err>
-</testsuite>

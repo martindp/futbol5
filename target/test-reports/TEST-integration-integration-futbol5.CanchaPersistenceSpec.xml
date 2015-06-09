@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" name="futbol5.CanchaPersistenceSpec" tests="1" time="0.216" timestamp="2015-06-08T21:21:09">
-  <properties />
-  <testcase classname="futbol5.CanchaPersistenceSpec" name="crud de canchas" time="0.216" />
-  <system-out><![CDATA[--Output from crud de canchas--
-]]></system-out>
-  <system-err><![CDATA[--Output from crud de canchas--
-]]></system-err>
-</testsuite>
