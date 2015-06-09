@@ -2,7 +2,8 @@ class UrlMappings {
 
 	static mappings = {
 
-        "/cancha"(resources: 'cancha')
+        "/api/canchas"(resources: 'cancha')
+        		"/api/reservas"(resources: 'reserva')
 
 	}
 }

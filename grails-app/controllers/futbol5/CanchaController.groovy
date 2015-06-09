@@ -1,24 +1,16 @@
 package futbol5
 
+import grails.transaction.*
+import static org.springframework.http.HttpStatus.*
+import static org.springframework.http.HttpMethod.*
 import grails.rest.RestfulController
 
-class CanchaController extends RestfulController {
+@Transactional(readOnly = true)
+class CanchaController extends RestfulController{
 
-    def index() {
-        [ canchas: Cancha.list() ]
-    }
+static responseFormats = ['json', 'xml']
 
-    def save(){
-        def c = new Cancha(
-            nombre: params.nombre,
-            direccion: params.direccion,
-            telefono: params.telefono,
-            precio: params.precio
-        ).save(failOnError: true)
-        [ cancha: c ]
-    }
-
-    def delete(cancha){
-        cancha.delete()
-    }
+CanchaController(){
+	super(Cancha)
+}
 }

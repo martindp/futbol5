@@ -1,22 +1,16 @@
 package futbol5
 
+import grails.transaction.*
+import static org.springframework.http.HttpStatus.*
+import static org.springframework.http.HttpMethod.*
 import grails.rest.RestfulController
 
+@Transactional(readOnly = true)
 class UsuarioController extends RestfulController{
 
-    def index() {
-        [ usuarios: Usuario.list() ]
-    }
+static responseFormats = ['json', 'xml']
 
-    def save(){
-        def u = new Usuario(
-            nombre: params.nombre,
-            email: params.email
-        ).save(failOnError: true)
-        [ usuario: u ]
-    }
-
-    def delete(usuario){
-        usuario.delete()
-    }
+UsuarioController(){
+	super(Usuario)
+}
 }
