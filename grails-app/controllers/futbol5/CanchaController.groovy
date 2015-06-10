@@ -24,7 +24,9 @@ static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
     }
 
     def create() {
-        respond new Cancha(params)
+        Cancha c= new Cancha(params)
+        c.save()
+        respond c
     }
 
     @Transactional
