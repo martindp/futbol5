@@ -64,6 +64,8 @@ grails.project.dependency.resolution = {
         runtime ":scaffolding:2.1.2"
         compile ":asset-pipeline:1.8.7"
 
+
+
         compile ":spring-security-oauth2-provider:2.0-RC3"
 
         // plugins needed at runtime but not for compilation
