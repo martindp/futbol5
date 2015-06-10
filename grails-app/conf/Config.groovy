@@ -115,3 +115,21 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+
+// Added by the Spring Security OAuth2 Provider plugin:
+grails.plugin.springsecurity.oauthProvider.clientLookup.className = 'futbol5.Client'
+grails.plugin.springsecurity.oauthProvider.authorizationCodeLookup.className = 'futbol5.AuthorizationCode'
+grails.plugin.springsecurity.oauthProvider.accessTokenLookup.className = 'futbol5.AccessToken'
+grails.plugin.springsecurity.oauthProvider.refreshTokenLookup.className = 'futbol5.RefreshToken'
+
+
+grails.plugin.springsecurity.controllerAnnotations.staticRules = [
+        '/oauth/authorize.dispatch':      ["isFullyAuthenticated() and (request.getMethod().equals('GET') or request.getMethod().equals('POST'))"],
+        '/oauth/token.dispatch':          ["isFullyAuthenticated() and request.getMethod().equals('POST')"]]
+
+grails.plugin.springsecurity.filterChain.chainMap = [
+        '/oauth/token': 'JOINED_FILTERS,-oauth2ProviderFilter,-securityContextPersistenceFilter,-logoutFilter,-rememberMeAuthenticationFilter,-exceptionTranslationFilter',
+        '/securedOAuth2Resources/**': 'JOINED_FILTERS,-securityContextPersistenceFilter,-logoutFilter,-rememberMeAuthenticationFilter,-exceptionTranslationFilter',
+        '/**': 'JOINED_FILTERS,-statelessSecurityContextPersistenceFilter,-oauth2ProviderFilter,-clientCredentialsTokenEndpointFilter,-oauth2ExceptionTranslationFilter'
+]

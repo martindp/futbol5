@@ -1,4 +1,5 @@
 import futbol5.Cancha
+import futbol5.Client
 
 class BootStrap {
 
@@ -17,6 +18,15 @@ class BootStrap {
     c4.save()
     c5.save()
     c6.save()
+
+    new Client(
+                    clientId: 'my-client',
+                    authorizedGrantTypes: ['authorization_code', 'refresh_token', 'implicit', 'password', 'client_credentials'],
+                    authorities: ['ROLE_CLIENT'],
+                    scopes: ['read', 'write'],
+                    redirectUris: ['http://myredirect.com']
+            ).save(flush: true)
+
     }
 
     def destroy = {

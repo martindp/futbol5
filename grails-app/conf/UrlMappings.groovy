@@ -8,6 +8,7 @@ class UrlMappings {
         }
 
 		"/api/canchas"(resources: 'cancha')
+		"/api/clientes"(resources: 'client')
 
         "/"(view:"/index")
         "500"(view:'/error')

@@ -4,6 +4,8 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 import grails.rest.RestfulController
 
+import grails.plugin.springsecurity.annotation.Secured
+
 @Transactional
 class CanchaController extends RestfulController{
 
@@ -14,11 +16,14 @@ static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 	    super(Cancha)
     }
 
+//@Secured(["ROLE_CLIENT"])
+  @Secured(["permitAll"])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Cancha.list(params), model:[canchaInstanceCount: Cancha.count()]
     }
 
+@Secured(["permitAll"])
     def show(Cancha canchaInstance) {
         respond canchaInstance
     }
