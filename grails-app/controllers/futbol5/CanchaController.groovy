@@ -4,7 +4,7 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 import grails.rest.RestfulController
 
-@Transactional(readOnly = true)
+@Transactional
 class CanchaController extends RestfulController{
 
 static responseFormats = ['json', 'xml']
