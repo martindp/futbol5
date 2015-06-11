@@ -9,6 +9,7 @@ class UrlMappings {
 
 		"/api/canchas"(resources: 'cancha')
 		"/api/clientes"(resources: 'client')
+        "/api/login"(controller:"login", action:"login", method:"GET")
 
         "/"(view:"/index")
         "500"(view:'/error')

@@ -15,6 +15,15 @@ static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
     CanchaController(){
 	    super(Cancha)
     }
+def beforeInterceptor = {
+     response.setHeader('Access-Control-Allow-Origin', '*')
+                        response.setHeader('Access-Control-Allow-Methods', 'POST, PUT, GET, OPTIONS, PATCH')
+                        response.setHeader('Access-Control-Allow-Headers', 'X-Additional-Headers-Example')
+                        response.setHeader('Access-Control-Allow-Credentials', 'true')
+                        response.setHeader('Access-Control-Max-Age', '1728000')
+}
+
+
 
 //@Secured(["ROLE_CLIENT"])
   @Secured(["permitAll"])

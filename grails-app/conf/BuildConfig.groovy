@@ -51,11 +51,12 @@ grails.project.dependency.resolution = {
         runtime 'mysql:mysql-connector-java:5.1.29'
         runtime 'org.postgresql:postgresql:9.3-1101-jdbc41'
         compile "org.springframework:spring-orm:$springVersion"
-
+runtime 'org.codehaus.groovy.modules.http-builder:http-builder:0.5.0-RC2'
     }
 
     plugins {
         // plugins for the build system only
+
         build ":tomcat:7.0.53"
 
         // plugins for the compile step
@@ -63,8 +64,6 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.6'
         runtime ":scaffolding:2.1.2"
         compile ":asset-pipeline:1.8.7"
-
-
 
         compile ":spring-security-oauth2-provider:2.0-RC3"
 
@@ -78,8 +77,6 @@ grails.project.dependency.resolution = {
         //compile ":less-asset-pipeline:1.7.0"
         //compile ":coffee-asset-pipeline:1.7.0"
         //compile ":handlebars-asset-pipeline:1.3.0.3"
-
-
-
+        //compile ":rest-client-builder:2.0.0"
     }
 }
