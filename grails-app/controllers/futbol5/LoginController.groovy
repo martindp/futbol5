@@ -43,27 +43,27 @@ static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
     //http.setHeaders(Accept: "application/json", ("User-Agent"): "Mozilla/5.0 Ubuntu/8.10 Firefox/3.0.4")
     //def resp = http.get(path: "/")
 
-   def http = new HTTPBuilder()
+   //def http = new HTTPBuilder()
    //http.setProxy('localhost',8888,'http')
-   http.request( 'https://graph.facebook.com', Method.GET, ContentType.JSON ) { req ->
-   uri.path = '/v2.3/me'
-   uri.query = [  access_token: 'CAACEdEose0cBADAT4XumlYSGoEFFwmZADwvCp5LhhbSQZASZAtBtPHlZCN0COuQFoT27AtHJk6Gk3M95d7xZBjADOkepH5wgaXm8paYBo2wpGh9tXFLd7HeCtW9FprBrgf4gbcdcFw72WqFU7c1GZBs8X6wosHZBxMGvu8rKg3ZA8rFzp7sLDNWS6VA0gRQl6vSx3urukQmjzonc55xMjBiKO6APmGJIsApscYTxHrynogZDZD' ]
-   headers.'User-Agent' = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
-   headers.Accept = 'application/json'
-   headers.'Accept-Encoding' = 'gzip, deflate, sdch'
+   //http.request( 'https://graph.facebook.com', Method.GET, ContentType.JSON ) { req ->
+   //uri.path = '/v2.3/me'
+   //uri.query = [  access_token: 'CAACEdEose0cBADAT4XumlYSGoEFFwmZADwvCp5LhhbSQZASZAtBtPHlZCN0COuQFoT27AtHJk6Gk3M95d7xZBjADOkepH5wgaXm8paYBo2wpGh9tXFLd7HeCtW9FprBrgf4gbcdcFw72WqFU7c1GZBs8X6wosHZBxMGvu8rKg3ZA8rFzp7sLDNWS6VA0gRQl6vSx3urukQmjzonc55xMjBiKO6APmGJIsApscYTxHrynogZDZD' ]
+   //headers.'User-Agent' = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+   //headers.Accept = 'application/json'
+   //headers.'Accept-Encoding' = 'gzip, deflate, sdch'
 
-   response.success = { resp, reader ->
-   assert resp.statusLine.statusCode == 200
-   println "Got response: ${resp.statusLine}"
-   println "Content-Type: ${resp.headers.'Content-Type'}"
-   respond reader.text
-   }
+   //response.success = { resp, reader ->
+   //assert resp.statusLine.statusCode == 200
+   //println "Got response: ${resp.statusLine}"
+   //println "Content-Type: ${resp.headers.'Content-Type'}"
+   //respond reader.text
+   //}
 
 
-   response.'404' = {
-   println 'Not found'
-   }
-   }
+   //response.'404' = {
+   //println 'Not found'
+//   }
+  // }
 
 
 
