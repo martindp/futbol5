@@ -5,10 +5,10 @@ import grails.transaction.Transactional
 import grails.rest.RestfulController
 
 
-import groovyx.net.http.HTTPBuilder
-import groovyx.net.http.ContentType
-import groovyx.net.http.Method
-import groovyx.net.http.RESTClient
+//import groovyx.net.http.HTTPBuilder
+//import groovyx.net.http.ContentType
+//import groovyx.net.http.Method
+//import groovyx.net.http.RESTClient
 
 
 import grails.plugin.springsecurity.annotation.Secured
@@ -20,5 +20,5 @@ static responseFormats = ['json', 'xml']
 static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
 
-        }
+
 }

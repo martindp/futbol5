@@ -51,7 +51,6 @@ grails.project.dependency.resolution = {
         runtime 'mysql:mysql-connector-java:5.1.29'
         runtime 'org.postgresql:postgresql:9.3-1101-jdbc41'
         compile "org.springframework:spring-orm:$springVersion"
-        compile 'org.codehaus.groovy.modules.http-builder:http-builder:0.5.0-RC2'
     }
 
     plugins {
@@ -71,6 +70,11 @@ grails.project.dependency.resolution = {
         runtime ":hibernate4:4.3.5.3" // or ":hibernate:3.6.10.15"
         runtime ":database-migration:1.4.0"
         runtime ":jquery:1.11.1"
+
+        compile ":rest-client-builder:2.1.1"
+
+        //runtime 'org.codehaus.groovy.modules.http-builder:http-builder:0.5.0-RC2'
+        //runtime ":rest:0.7"
 
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.7.4"
