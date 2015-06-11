@@ -2,12 +2,12 @@ package futbol5
 
 class AuthorizationCode {
 
-    byte[] authentication
+    //byte[] authentication
     String code
 
     static constraints = {
         code nullable: false, blank: false, unique: true
-        authentication nullable: false, minSize: 1, maxSize: 1024 * 4
+        //authentication nullable: false, minSize: 1, maxSize: 1024 * 4
     }
 
     static mapping = {

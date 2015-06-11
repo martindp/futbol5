@@ -40,7 +40,20 @@ static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
     def resp = rest.get("https://graph.facebook.com/me?access_token=CAACEdEose0cBAGE6gLSg25k1xWTNIHZAZCbC7Obd4oU6gmCZBnUwBizk1BgsAZB9y3ZBY7nsPe67PDvvuJdgjojwL3IkgEPELRvZA7csjV2sEoZCNQsTKRa1ZBZALjC48CMBZAZAvlqZCuo6ZA7OW6AbdumE4NMGbAyo4di6ud7oaXtFVdRILigVoVu4bOz2rEsZBMgVux2q0XxdvnLZAa2KXacf5T6Vz7wyjRC0xlDcfxW1KiyuwZDZD") {
                     accept JSON
                 }
-    respond resp.json
+
+    def nombre = resp.json.first_name
+    def apellido = resp.json.last_name
+    def email = resp.json.email
+    def uuid = UUID.randomUUID().toString()
+
+    def authCode = new AuthorizationCode()
+    authCode.code = uuid
+
+
+    def map = [:]
+    map["uuid"] = [uuid]
+
+    respond client
     }
 
 

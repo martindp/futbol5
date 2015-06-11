@@ -1,5 +1,6 @@
 import futbol5.Cancha
 import futbol5.Client
+import futbol5.Barrio
 
 class BootStrap {
 
@@ -19,15 +20,22 @@ class BootStrap {
     c5.save()
     c6.save()
 
-    new Client(
-                    clientId: 'my-client',
-                    authorizedGrantTypes: ['authorization_code', 'refresh_token', 'implicit', 'password', 'client_credentials'],
-                    authorities: ['ROLE_CLIENT'],
-                    scopes: ['read', 'write'],
-                    redirectUris: ['http://myredirect.com']
-            ).save(flush: true)
 
-    }
+    Barrio b1 = new Barrio(nombre: "Cordon")
+    Barrio b2 = new Barrio(nombre: "Centro")
+    Barrio b3 = new Barrio(nombre: "Union")
+    Barrio b4 = new Barrio(nombre: "Pocitos")
+    Barrio b5 = new Barrio(nombre: "Punta Gorda")
+    Barrio b6 = new Barrio(nombre: "Palermo")
+
+    b1.save()
+    b2.save()
+    b3.save()
+    b4.save()
+    b5.save()
+    b6.save()
+
+}
 
     def destroy = {
     }
