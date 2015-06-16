@@ -17,23 +17,12 @@ import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
 
 
-//import groovyx.net.http.HTTPBuilder
-//import groovyx.net.http.ContentType
-//import groovyx.net.http.Method
-//import groovyx.net.http.RESTClient
-
-
-
-
-import grails.plugin.springsecurity.annotation.Secured
-
 @Transactional
 class LoginController extends RestfulController{
 
 static responseFormats = ['json', 'xml']
 static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-@Secured(["permitAll"])
     def login()
     {
     def rest = new RestBuilder()
@@ -46,17 +35,6 @@ static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
     def email = resp.json.email
     def uuid = UUID.randomUUID().toString()
 
-    def authCode = new AuthorizationCode()
-    authCode.code = uuid
-
-    def client = new Client(
-                       clientId: email,
-                       authorizedGrantTypes: [authCode, 'refresh_token', 'implicit', 'password', 'client_credentials'],
-                       authorities: ['ROLE_CLIENT'],
-                       scopes: ['read', 'write'],
-                       redirectUris: ['http://myredirect.com']
-               )
-    client.save(flush: true)
 
 
 

@@ -4,7 +4,6 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 import grails.rest.RestfulController
 
-import grails.plugin.springsecurity.annotation.Secured
 
 @Transactional
 class CanchaController extends RestfulController{
@@ -25,8 +24,7 @@ def beforeInterceptor = {
 
 
 
-//@Secured(["ROLE_CLIENT"])
-  @Secured(["permitAll"])
+
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         def barrio = Barrio.get(params.int('barrio'))
@@ -39,7 +37,6 @@ def beforeInterceptor = {
         //Cancha.list(params)
     }
 
-@Secured(["permitAll"])
     def show(Cancha canchaInstance) {
         respond canchaInstance
     }

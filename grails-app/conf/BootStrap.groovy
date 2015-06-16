@@ -1,5 +1,4 @@
 import futbol5.Cancha
-import futbol5.Client
 import futbol5.Barrio
 
 class BootStrap {
@@ -35,6 +34,8 @@ class BootStrap {
      c4.save()
      c5.save()
      c6.save(flush: true)
+
+
 }
 
     def destroy = {

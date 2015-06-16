@@ -4,7 +4,6 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 import grails.rest.RestfulController
 
-import grails.plugin.springsecurity.annotation.Secured
 
 @Transactional(readOnly = true)
 class BarrioController  extends RestfulController {
@@ -22,12 +21,11 @@ class BarrioController  extends RestfulController {
                            response.setHeader('Access-Control-Allow-Credentials', 'true')
                            response.setHeader('Access-Control-Max-Age', '1728000')
    }
-@Secured(["permitAll"])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Barrio.list(params), model:[barrioInstanceCount: Barrio.count()]
     }
-@Secured(["permitAll"])
+
     def show(Barrio barrioInstance) {
         respond barrioInstance
     }

@@ -4,7 +4,6 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 import grails.rest.RestfulController
 
-import grails.plugin.springsecurity.annotation.Secured
 
 @Transactional
 class ReservaController extends RestfulController{
@@ -23,13 +22,11 @@ def beforeInterceptor = {
                         response.setHeader('Access-Control-Max-Age', '1728000')
 }
 
-    @Secured(["permitAll"])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Reserva.list(params), model:[reservaInstanceCount: Reserva.count()]
     }
 
-    @Secured(["permitAll"])
     def show(Reserva reservaInstance) {
         respond reservaInstance
     }
