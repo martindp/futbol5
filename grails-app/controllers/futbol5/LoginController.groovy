@@ -49,9 +49,16 @@ static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
     def authCode = new AuthorizationCode()
     authCode.code = uuid
 
+    def client = new Client(
+                       clientId: email,
+                       authorizedGrantTypes: [authCode, 'refresh_token', 'implicit', 'password', 'client_credentials'],
+                       authorities: ['ROLE_CLIENT'],
+                       scopes: ['read', 'write'],
+                       redirectUris: ['http://myredirect.com']
+               )
+    client.save(flush: true)
 
-    def map = [:]
-    map["uuid"] = [uuid]
+
 
     respond client
     }

@@ -7,6 +7,8 @@ class UrlMappings {
             }
         }
 
+"/api/reservas"(resources: 'reserva')
+
 		"/api/canchas"(resources: 'cancha')
 		"/api/clientes"(resources: 'client')
 		"/api/barrios"(resources: 'barrio')

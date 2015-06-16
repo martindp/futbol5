@@ -29,7 +29,14 @@ def beforeInterceptor = {
   @Secured(["permitAll"])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        respond Cancha.list(params), model:[canchaInstanceCount: Cancha.count()]
+        def barrio = Barrio.get(params.int('barrio'))
+
+        if(barrio)
+        respond Cancha.findAllByBarrio(barrio), model:[canchaInstanceCount: Cancha.count()]
+
+        respond Cancha.list(params)
+
+        //Cancha.list(params)
     }
 
 @Secured(["permitAll"])
