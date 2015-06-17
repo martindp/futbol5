@@ -32,6 +32,24 @@ class ReservaController extends RestfulController{
     }
 
     def create() {
+    try{
+    	def cancha = Cancha.get(params.int('cancha'))
+        def fecha = Date.parse("dd/MM/yyyy", params.fecha)
+        def hora = params.int('hora')
+        def token = params.access_token
+        def user = Usuario.findAllByAccess_token(token)
+		print "paso1"
+        def reserva = new Reserva(hora: hora, fecha: fecha, cancha: cancha, usuario: user)
+        reserva.save()
+
+        print "paso2"
+        respond reserva
+
+        }catch(Exception e)
+        {
+        	redirect action: 'badRequest', controller: 'error', namespace: null
+        }
+
         respond new Reserva(params)
     }
 

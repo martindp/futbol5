@@ -11,23 +11,26 @@ class SecurityFilters {
 
             def user = null
             if(token)
-            user = Usuario.findAllByAccess_token(token)
+            	user = Usuario.findAllByAccess_token(token)
 
- 			// if(controllerName == "cancha"){
-            //   if(!user){
-            // render errorAuth
-             //return false
-             //}
-            //}
-
+ 			if(controllerName == "cancha"){
+            	if(!user){
+            	render errorAuth
+            	return false
+             	}
+            }
             if(controllerName == "usuario"){
-                render errorAuth
-                return false
+                if(!user){
+                   	render errorAuth
+                   	return false
+                }
             }
 
             if(controllerName == "reserva"){
-                render errorAuth
-                return false
+                if(!user){
+                   	render errorAuth
+                   	return false
+                }
             }
 
             return true

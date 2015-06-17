@@ -54,7 +54,7 @@ class LoginController extends RestfulController{
                     respond Usuario.findByEmail(email)
 
         def user = new Usuario(email: email, password: password, access_token: uuid, roles: ['USER'])
-        user.save()
+        user.save(flush: true)
 
         respond user
 
