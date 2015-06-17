@@ -5,11 +5,14 @@ class Usuario {
     String password
     String email
     String access_token
-
     static hasMany = [
                roles: String,
                reservas: Reserva
     ]
+
+   static mapping = {
+           reservas lazy: false
+       }
 
     static constraints = {
         password(nullable:false, blank:false)
