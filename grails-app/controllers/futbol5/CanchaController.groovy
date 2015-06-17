@@ -4,37 +4,32 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 import grails.rest.RestfulController
 
-
 @Transactional
 class CanchaController extends RestfulController{
 
-static responseFormats = ['json', 'xml']
-static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+    static responseFormats = ['json', 'xml']
+    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     CanchaController(){
-	    super(Cancha)
+       super(Cancha)
     }
-def beforeInterceptor = {
-     response.setHeader('Access-Control-Allow-Origin', '*')
-                        response.setHeader('Access-Control-Allow-Methods', 'POST, PUT, GET, OPTIONS, PATCH')
-                        response.setHeader('Access-Control-Allow-Headers', 'X-Additional-Headers-Example')
-                        response.setHeader('Access-Control-Allow-Credentials', 'true')
-                        response.setHeader('Access-Control-Max-Age', '1728000')
-}
 
-
-
+    def beforeInterceptor = {
+        response.setHeader('Access-Control-Allow-Origin', '*')
+        response.setHeader('Access-Control-Allow-Methods', 'POST, PUT, GET, OPTIONS, PATCH')
+        response.setHeader('Access-Control-Allow-Headers', 'X-Additional-Headers-Example')
+        response.setHeader('Access-Control-Allow-Credentials', 'true')
+        response.setHeader('Access-Control-Max-Age', '1728000')
+    }
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         def barrio = Barrio.get(params.int('barrio'))
 
         if(barrio)
-        respond Cancha.findAllByBarrio(barrio), model:[canchaInstanceCount: Cancha.count()]
-
+            respond Cancha.findAllByBarrio(barrio), model:[canchaInstanceCount: Cancha.count()]
+        
         respond Cancha.list(params)
-
-        //Cancha.list(params)
     }
 
     def show(Cancha canchaInstance) {

@@ -20,25 +20,36 @@ import org.springframework.http.MediaType
 @Transactional
 class LoginController extends RestfulController{
 
-static responseFormats = ['json', 'xml']
-static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+    def errorAuth=[error: 'error', message: 'No esta autorizado para acceder a este recurso']
+    static responseFormats = ['json', 'xml']
+    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def login()
     {
-    def rest = new RestBuilder()
-    def resp = rest.get("https://graph.facebook.com/me?access_token=CAACEdEose0cBAGE6gLSg25k1xWTNIHZAZCbC7Obd4oU6gmCZBnUwBizk1BgsAZB9y3ZBY7nsPe67PDvvuJdgjojwL3IkgEPELRvZA7csjV2sEoZCNQsTKRa1ZBZALjC48CMBZAZAvlqZCuo6ZA7OW6AbdumE4NMGbAyo4di6ud7oaXtFVdRILigVoVu4bOz2rEsZBMgVux2q0XxdvnLZAa2KXacf5T6Vz7wyjRC0xlDcfxW1KiyuwZDZD") {
-                    accept JSON
-                }
+        def token = params.access_token
+        if(token){
 
-    def nombre = resp.json.first_name
-    def apellido = resp.json.last_name
-    def email = resp.json.email
-    def uuid = UUID.randomUUID().toString()
+        def rest = new RestBuilder()
+        def resp = rest.get("https://graph.facebook.com/me?access_token=" + token) {
+            accept JSON
+        }
 
+        def nombre = resp.json.first_name
+        def apellido = resp.json.last_name
+        def email = resp.json.email
+        def uuid = UUID.randomUUID().toString()
 
+        if(Usuario.findByEmail(email))
+                    respond Usuario.findByEmail(email)
 
+        def user = new Usuario(nombre: nombre, apellido: apellido, email: email, access_token: uuid, roles: ['USER'])
+        user.save()
 
-    respond client
+        respond user
+
+        }
+        else
+            respond errorAuth
     }
 
 

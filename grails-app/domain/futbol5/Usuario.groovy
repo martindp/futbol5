@@ -5,7 +5,7 @@ class Usuario {
     String nombre
     String apellido
     String email
-    UUID acces_token
+    String access_token
 
     static hasMany = [
                roles: String,
@@ -13,9 +13,9 @@ class Usuario {
     ]
 
     static constraints = {
-     nombre(nullable:false, blank:false)
-     apellido(nullable:false, blank:false)
-     email(nullable:false, blank:false, unique:true)
-     acces_token(nullable:false, blank:false)
+        nombre(nullable:false, blank:false)
+        apellido(nullable:false, blank:false)
+        email(nullable:false, blank:false, unique:true)
+        access_token(nullable:false, blank:false)
     }
 }

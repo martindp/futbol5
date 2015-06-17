@@ -4,23 +4,23 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 import grails.rest.RestfulController
 
-
 @Transactional
 class ReservaController extends RestfulController{
 
-static responseFormats = ['json', 'xml']
-static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+    static responseFormats = ['json', 'xml']
+    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     ReservaController(){
 	    super(Reserva)
     }
-def beforeInterceptor = {
-     response.setHeader('Access-Control-Allow-Origin', '*')
-                        response.setHeader('Access-Control-Allow-Methods', 'POST, PUT, GET, OPTIONS, PATCH')
-                        response.setHeader('Access-Control-Allow-Headers', 'X-Additional-Headers-Example')
-                        response.setHeader('Access-Control-Allow-Credentials', 'true')
-                        response.setHeader('Access-Control-Max-Age', '1728000')
-}
+
+    def beforeInterceptor = {
+        response.setHeader('Access-Control-Allow-Origin', '*')
+        response.setHeader('Access-Control-Allow-Methods', 'POST, PUT, GET, OPTIONS, PATCH')
+        response.setHeader('Access-Control-Allow-Headers', 'X-Additional-Headers-Example')
+        response.setHeader('Access-Control-Allow-Credentials', 'true')
+        response.setHeader('Access-Control-Max-Age', '1728000')
+    }
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)

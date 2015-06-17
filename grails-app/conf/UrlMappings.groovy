@@ -7,14 +7,15 @@ class UrlMappings {
             }
         }
 
-"/api/reservas"(resources: 'reserva')
-
 		"/api/canchas"(resources: 'cancha')
-		"/api/clientes"(resources: 'client')
+		"/api/reservas"(resources: 'reserva')
 		"/api/barrios"(resources: 'barrio')
+		"/api/usuarios"(resources: 'usuario')
+
 		"/api/login"(controller:"login", action:"login", method:"GET")
 
-        "/"(view:"/index")
-        "500"(view:'/error')
+        "500"(controller:"error", action:"errorServer", method:"GET")
+        "404"(controller:"error",action:"errorNotFound",method:"GET")
+        "/**"(controller:"error",action:"errorNotFound",method:"GET")
 	}
 }
