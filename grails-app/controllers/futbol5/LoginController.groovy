@@ -26,23 +26,26 @@ class LoginController extends RestfulController{
 
     def login()
     {
-        def token = params.access_token
-        if(token){
+    def email = params.email
+    def password = params.password
+    	if(email && password){
+        //def token = params.access_token
+        //if(token){
 
-        def rest = new RestBuilder()
-        def resp = rest.get("https://graph.facebook.com/me?access_token=" + token) {
-            accept JSON
-        }
+        //def rest = new RestBuilder()
+        //def resp = rest.get("https://graph.facebook.com/me?access_token=" + token) {
+        //    accept JSON
+        //}
 
-        def nombre = resp.json.first_name
-        def apellido = resp.json.last_name
-        def email = resp.json.email
+        //def nombre = resp.json.first_name
+        //def apellido = resp.json.last_name
+        //def email = resp.json.email
         def uuid = UUID.randomUUID().toString()
 
         if(Usuario.findByEmail(email))
                     respond Usuario.findByEmail(email)
 
-        def user = new Usuario(nombre: nombre, apellido: apellido, email: email, access_token: uuid, roles: ['USER'])
+        def user = new Usuario(email: email, password: password, access_token: uuid, roles: ['USER'])
         user.save()
 
         respond user

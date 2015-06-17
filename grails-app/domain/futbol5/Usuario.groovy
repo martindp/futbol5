@@ -2,8 +2,7 @@ package futbol5
 
 class Usuario {
 
-    String nombre
-    String apellido
+    String password
     String email
     String access_token
 
@@ -13,8 +12,7 @@ class Usuario {
     ]
 
     static constraints = {
-        nombre(nullable:false, blank:false)
-        apellido(nullable:false, blank:false)
+        password(nullable:false, blank:false)
         email(nullable:false, blank:false, unique:true)
         access_token(nullable:false, blank:false)
     }

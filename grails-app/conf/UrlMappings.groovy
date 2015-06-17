@@ -16,6 +16,6 @@ class UrlMappings {
 
         "500"(controller:"error", action:"errorServer", method:"GET")
         "404"(controller:"error",action:"errorNotFound",method:"GET")
-        "/**"(controller:"error",action:"errorNotFound",method:"GET")
+        //"/**"(controller:"error",action:"errorNotFound",method:"GET")
 	}
 }

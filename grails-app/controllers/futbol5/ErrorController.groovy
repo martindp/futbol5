@@ -10,9 +10,10 @@ class ErrorController extends RestfulController{
     static responseFormats = ['json', 'xml']
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-     def errorAuth=[error: '401', message: 'No esta autorizado para acceder a este recurso']
-      def errorNotFound=[error: '404', message: 'Recurso no disponible']
-      def errorServer=[error: '500', message: 'Error de servidor']
+    def errorAuth=[error: '401', message: 'No esta autorizado para acceder a este recurso']
+    def errorNotFound=[error: '404', message: 'Recurso no disponible']
+    def errorServer=[error: '500', message: 'Error de servidor']
+    def errorBad=[error: '400', message: 'Llamada invalida']
 
     def beforeInterceptor = {
         response.setHeader('Access-Control-Allow-Origin', '*')
@@ -27,10 +28,14 @@ class ErrorController extends RestfulController{
     }
 
     def errorNotFound() {
-            respond errorNotFound
-        }
+        respond errorNotFound
+    }
 
     def errorServer() {
-                respond errorServer
-            }
+        respond errorServer
+    }
+
+    def badRequest() {
+        respond errorBad
+    }
 }

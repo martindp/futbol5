@@ -8,9 +8,13 @@ class Cancha {
     String telefono
     String precio
     Barrio barrio
-    Usuario admin
+ //   Usuario admin
 
-    static hasMany = [reservas: Reserva]
+    static hasMany =
+    [
+    	reservas: Reserva,
+    	horarios: Integer
+    ]
 
     static constraints = {
         nombre(nullable:false, blank:false, unique:true)

@@ -23,13 +23,26 @@ class CanchaController extends RestfulController{
     }
 
     def index(Integer max) {
+    try{
         params.max = Math.min(max ?: 10, 100)
         def barrio = Barrio.get(params.int('barrio'))
+        def fecha = Date.parse("dd/MM/yyyy", params.fecha)
+		def hora = params.int('hora')
 
-        if(barrio)
-            respond Cancha.findAllByBarrio(barrio), model:[canchaInstanceCount: Cancha.count()]
-        
-        respond Cancha.list(params)
+       if(barrio && fecha && hora){
+       		def canchasBarrio = Cancha.findAllByBarrio(barrio)
+			def canchasBarrioHora = canchasBarrio.findAll {it.horarios.contains(hora)}
+			def reservas = Reserva.list().findAll{ it.hora== hora && it.fecha==fecha }
+
+			for (r in reservas) {
+ 				canchasBarrioHora.remove{i.cancha}
+            }
+			respond canchasBarrioHora
+       }
+       }catch(Exception e){
+       		redirect action: 'badRequest', controller: 'error', namespace: null
+       }
+            respond Cancha.list(params), model:[canchaInstanceCount: Cancha.count()]
     }
 
     def show(Cancha canchaInstance) {
