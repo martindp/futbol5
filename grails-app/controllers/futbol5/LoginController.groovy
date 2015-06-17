@@ -20,9 +20,17 @@ import org.springframework.http.MediaType
 @Transactional
 class LoginController extends RestfulController{
 
-    def errorAuth=[error: 'error', message: 'No esta autorizado para acceder a este recurso']
+    def errorAuth=[error: '400', message: 'No esta autorizado para acceder a este recurso']
     static responseFormats = ['json', 'xml']
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+
+    def beforeInterceptor = {
+        response.setHeader('Access-Control-Allow-Origin', '*')
+        response.setHeader('Access-Control-Allow-Methods', 'POST, PUT, GET, OPTIONS, PATCH')
+        response.setHeader('Access-Control-Allow-Headers', 'X-Additional-Headers-Example')
+        response.setHeader('Access-Control-Allow-Credentials', 'true')
+        response.setHeader('Access-Control-Max-Age', '1728000')
+    }
 
     def login()
     {
