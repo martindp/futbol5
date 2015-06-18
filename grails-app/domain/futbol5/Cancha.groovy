@@ -8,7 +8,6 @@ class Cancha {
     String telefono
     String precio
     Barrio barrio
- //   Usuario admin
 
     static hasMany =
     [

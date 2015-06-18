@@ -34,8 +34,9 @@ class LoginController extends RestfulController{
 
     def login()
     {
-    def email = params.email
-    def password = params.password
+        def email = params.email
+        def password = params.password
+
     	if(email && password){
         //def token = params.access_token
         //if(token){
@@ -48,6 +49,7 @@ class LoginController extends RestfulController{
         //def nombre = resp.json.first_name
         //def apellido = resp.json.last_name
         //def email = resp.json.email
+
         def uuid = UUID.randomUUID().toString()
 
         if(Usuario.findByEmail(email))

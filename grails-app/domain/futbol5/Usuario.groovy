@@ -6,8 +6,8 @@ class Usuario {
     String email
     String access_token
     static hasMany = [
-               roles: String,
-               reservas: Reserva
+        roles: String,
+        reservas: Reserva
     ]
 
     static constraints = {
