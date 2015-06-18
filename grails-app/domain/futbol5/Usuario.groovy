@@ -10,10 +10,6 @@ class Usuario {
                reservas: Reserva
     ]
 
-   static mapping = {
-           reservas lazy: false
-       }
-
     static constraints = {
         password(nullable:false, blank:false)
         email(nullable:false, blank:false, unique:true)

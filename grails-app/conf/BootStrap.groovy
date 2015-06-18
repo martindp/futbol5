@@ -1,5 +1,6 @@
 import futbol5.Cancha
 import futbol5.Barrio
+import futbol5.Usuario
 
 class BootStrap {
 
@@ -33,8 +34,11 @@ class BootStrap {
      c3.save()
      c4.save()
      c5.save()
-     c6.save(flush: true)
+     c6.save()
 
+     def uuid = UUID.randomUUID().toString()
+     Usuario user = new Usuario(email: 'admin@admin.com', password: 'admin', access_token: uuid, roles: ['ADMIN'])
+     user.save(flush: true)
 
 }
 
