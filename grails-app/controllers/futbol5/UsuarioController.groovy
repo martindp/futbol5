@@ -27,10 +27,9 @@ static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
         respond Usuario.list(params), model:[usuarioInstanceCount: Usuario.count()]
     }
 
-    def show() {
-
-        respond new Usuario(params)
-    }
+     def show(Usuario usuarioInstance) {
+            respond usuarioInstance
+        }
 
 
     @Transactional

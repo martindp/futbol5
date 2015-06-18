@@ -1,41 +1,252 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="0" name="CanchaPersistenceSpec" package="futbol5" tests="1" time="0.216" timestamp="2015-06-08T21:21:09">
+  <testsuite errors="0" failures="7" hostname="Proyectos-PC" id="0" name="BarrioControllerSpec" package="futbol5" tests="7" time="21.84" timestamp="2015-06-18T01:01:30">
       <properties />
 
-      <testcase classname="futbol5.CanchaPersistenceSpec" name="crud de canchas" time="0.216" />
+      <testcase classname="futbol5.BarrioControllerSpec" name="Test the index action returns the correct model" time="17.906">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.barrioInstanceCount == 0&#xa;|     |                   |&#xa;[:]   null                false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
-      <system-out><![CDATA[--Output from crud de canchas--
+model.barrioInstanceCount == 0
+|     |                   |
+[:]   null                false
+
+	at futbol5.BarrioControllerSpec.Test the index action returns the correct model(BarrioControllerSpec.groovy:25)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.BarrioControllerSpec" name="Test the create action returns the correct model" time="0.549">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.barrioInstance!= null&#xa;|     |             |&#xa;[:]   null          false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.barrioInstance!= null
+|     |             |
+[:]   null          false
+
+	at futbol5.BarrioControllerSpec.Test the create action returns the correct model(BarrioControllerSpec.groovy:33)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.BarrioControllerSpec" name="Test the save action correctly persists an instance" time="0.328">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.barrioInstance!= null&#xa;|     |             |&#xa;[:]   null          false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.barrioInstance!= null
+|     |             |
+[:]   null          false
+
+	at futbol5.BarrioControllerSpec.Test the save action correctly persists an instance(BarrioControllerSpec.groovy:46)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.BarrioControllerSpec" name="Test that the show action returns the correct model" time="0.24">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.barrioInstance == barrio&#xa;|     |              |  |&#xa;[:]   null           |  futbol5.Barrio : (unsaved)&#xa;                     false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.barrioInstance == barrio
+|     |              |  |
+[:]   null           |  futbol5.Barrio : (unsaved)
+                     false
+
+	at futbol5.BarrioControllerSpec.Test that the show action returns the correct model(BarrioControllerSpec.groovy:75)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.BarrioControllerSpec" name="Test that the edit action returns the correct model" time="0.124">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.barrioInstance == barrio&#xa;|     |              |  |&#xa;[:]   null           |  futbol5.Barrio : (unsaved)&#xa;                     false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.barrioInstance == barrio
+|     |              |  |
+[:]   null           |  futbol5.Barrio : (unsaved)
+                     false
+
+	at futbol5.BarrioControllerSpec.Test that the edit action returns the correct model(BarrioControllerSpec.groovy:91)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.BarrioControllerSpec" name="Test the update action performs an update on a valid domain instance" time="2.265">
+          <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/barrio/index&apos;&#xa;|        |             |&#xa;|        /api/barrios  false&#xa;|                      10 differences (23% similarity)&#xa;|                      /(api/)barrio(s-----)&#xa;|                      /(----)barrio(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b1e88f&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/barrio/index&apos;
+|        |             |
+|        /api/barrios  false
+|                      10 differences (23% similarity)
+|                      /(api/)barrio(s-----)
+|                      /(----)barrio(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b1e88f
+
+	at futbol5.BarrioControllerSpec.Test the update action performs an update on a valid domain instance(BarrioControllerSpec.groovy:101)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.BarrioControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.169">
+          <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/barrio/index&apos;&#xa;|        |             |&#xa;|        /api/barrios  false&#xa;|                      10 differences (23% similarity)&#xa;|                      /(api/)barrio(s-----)&#xa;|                      /(----)barrio(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b64e14&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/barrio/index&apos;
+|        |             |
+|        /api/barrios  false
+|                      10 differences (23% similarity)
+|                      /(api/)barrio(s-----)
+|                      /(----)barrio(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b64e14
+
+	at futbol5.BarrioControllerSpec.Test that the delete action deletes an instance if it exists(BarrioControllerSpec.groovy:133)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from crud de canchas--
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="1" name="CanchaControllerSpec" package="futbol5" tests="3" time="3.157" timestamp="2015-06-08T21:21:00">
+  <testsuite errors="0" failures="7" hostname="Proyectos-PC" id="1" name="CanchaControllerSpec" package="futbol5" tests="7" time="3.482" timestamp="2015-06-18T01:01:52">
       <properties />
 
-      <testcase classname="futbol5.CanchaControllerSpec" name="listado de canchas" time="3.044" />
+      <testcase classname="futbol5.CanchaControllerSpec" name="Test the index action returns the correct model" time="1.952">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.canchaInstanceCount == 0&#xa;|     |                   |&#xa;[:]   null                false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
-      <testcase classname="futbol5.CanchaControllerSpec" name="crear cancha" time="0.051" />
+model.canchaInstanceCount == 0
+|     |                   |
+[:]   null                false
 
-      <testcase classname="futbol5.CanchaControllerSpec" name="borrar cancha" time="0.033" />
+	at futbol5.CanchaControllerSpec.Test the index action returns the correct model(CanchaControllerSpec.groovy:25)
+</failure>
 
-      <system-out><![CDATA[--Output from listado de canchas--
---Output from crear cancha--
---Output from borrar cancha--
+      </testcase>
+
+      <testcase classname="futbol5.CanchaControllerSpec" name="Test the create action returns the correct model" time="0.181">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.canchaInstance!= null&#xa;|     |             |&#xa;[:]   null          false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.canchaInstance!= null
+|     |             |
+[:]   null          false
+
+	at futbol5.CanchaControllerSpec.Test the create action returns the correct model(CanchaControllerSpec.groovy:33)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.CanchaControllerSpec" name="Test the save action correctly persists an instance" time="0.166">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.canchaInstance!= null&#xa;|     |             |&#xa;[:]   null          false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.canchaInstance!= null
+|     |             |
+[:]   null          false
+
+	at futbol5.CanchaControllerSpec.Test the save action correctly persists an instance(CanchaControllerSpec.groovy:46)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.CanchaControllerSpec" name="Test that the show action returns the correct model" time="0.189">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.canchaInstance == cancha&#xa;|     |              |  |&#xa;[:]   null           |  futbol5.Cancha : (unsaved)&#xa;                     false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.canchaInstance == cancha
+|     |              |  |
+[:]   null           |  futbol5.Cancha : (unsaved)
+                     false
+
+	at futbol5.CanchaControllerSpec.Test that the show action returns the correct model(CanchaControllerSpec.groovy:75)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.CanchaControllerSpec" name="Test that the edit action returns the correct model" time="0.164">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.canchaInstance == cancha&#xa;|     |              |  |&#xa;[:]   null           |  futbol5.Cancha : (unsaved)&#xa;                     false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.canchaInstance == cancha
+|     |              |  |
+[:]   null           |  futbol5.Cancha : (unsaved)
+                     false
+
+	at futbol5.CanchaControllerSpec.Test that the edit action returns the correct model(CanchaControllerSpec.groovy:91)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.CanchaControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.509">
+          <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/cancha/index&apos;&#xa;|        |             |&#xa;|        /api/canchas  false&#xa;|                      10 differences (23% similarity)&#xa;|                      /(api/)cancha(s-----)&#xa;|                      /(----)cancha(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ca3ca8&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/cancha/index&apos;
+|        |             |
+|        /api/canchas  false
+|                      10 differences (23% similarity)
+|                      /(api/)cancha(s-----)
+|                      /(----)cancha(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ca3ca8
+
+	at futbol5.CanchaControllerSpec.Test the update action performs an update on a valid domain instance(CanchaControllerSpec.groovy:101)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.CanchaControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.214">
+          <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/cancha/index&apos;&#xa;|        |             |&#xa;|        /api/canchas  false&#xa;|                      10 differences (23% similarity)&#xa;|                      /(api/)cancha(s-----)&#xa;|                      /(----)cancha(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@161e342&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/cancha/index&apos;
+|        |             |
+|        /api/canchas  false
+|                      10 differences (23% similarity)
+|                      /(api/)cancha(s-----)
+|                      /(----)cancha(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@161e342
+
+	at futbol5.CanchaControllerSpec.Test that the delete action deletes an instance if it exists(CanchaControllerSpec.groovy:133)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from listado de canchas--
---Output from crear cancha--
---Output from borrar cancha--
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="2" name="CanchaSpec" package="futbol5" tests="1" time="0.083" timestamp="2015-06-08T21:21:04">
+  <testsuite errors="0" failures="1" hostname="Proyectos-PC" id="2" name="CanchaSpec" package="futbol5" tests="1" time="0.897" timestamp="2015-06-18T01:01:56">
       <properties />
 
-      <testcase classname="futbol5.CanchaSpec" name="Ningun dato de la cancha puede ser nulo" time="0.078" />
+      <testcase classname="futbol5.CanchaSpec" name="Ningun dato de la cancha puede ser nulo" time="0.838">
+          <failure message="Condition not satisfied:&#xa;&#xa;c.validate()&#xa;| |&#xa;| false&#xa;futbol5.Cancha : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+c.validate()
+| |
+| false
+futbol5.Cancha : (unsaved)
+
+	at futbol5.CanchaSpec.Ningun dato de la cancha puede ser nulo(CanchaSpec.groovy:42)
+</failure>
+
+      </testcase>
 
       <system-out><![CDATA[--Output from Ningun dato de la cancha puede ser nulo--
 ]]></system-out>
@@ -44,23 +255,230 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Pro-de-Yanina.local" id="3" name="UsuarioControllerSpec" package="futbol5" tests="3" time="0.694" timestamp="2015-06-08T21:21:04">
+  <testsuite errors="0" failures="7" hostname="Proyectos-PC" id="3" name="ReservaControllerSpec" package="futbol5" tests="7" time="2.3" timestamp="2015-06-18T01:01:57">
       <properties />
 
-      <testcase classname="futbol5.UsuarioControllerSpec" name="listado de usuarios" time="0.648" />
+      <testcase classname="futbol5.ReservaControllerSpec" name="Test the index action returns the correct model" time="1.013">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.reservaInstanceCount == 0&#xa;|     |                    |&#xa;[:]   null                 false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
-      <testcase classname="futbol5.UsuarioControllerSpec" name="crear usuario" time="0.019" />
+model.reservaInstanceCount == 0
+|     |                    |
+[:]   null                 false
 
-      <testcase classname="futbol5.UsuarioControllerSpec" name="borrar usuario" time="0.019" />
+	at futbol5.ReservaControllerSpec.Test the index action returns the correct model(ReservaControllerSpec.groovy:25)
+</failure>
 
-      <system-out><![CDATA[--Output from listado de usuarios--
---Output from crear usuario--
---Output from borrar usuario--
+      </testcase>
+
+      <testcase classname="futbol5.ReservaControllerSpec" name="Test the create action returns the correct model" time="0.146">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.reservaInstance!= null&#xa;|     |              |&#xa;[:]   null           false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.reservaInstance!= null
+|     |              |
+[:]   null           false
+
+	at futbol5.ReservaControllerSpec.Test the create action returns the correct model(ReservaControllerSpec.groovy:33)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.ReservaControllerSpec" name="Test the save action correctly persists an instance" time="0.127">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.reservaInstance!= null&#xa;|     |              |&#xa;[:]   null           false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.reservaInstance!= null
+|     |              |
+[:]   null           false
+
+	at futbol5.ReservaControllerSpec.Test the save action correctly persists an instance(ReservaControllerSpec.groovy:46)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.ReservaControllerSpec" name="Test that the show action returns the correct model" time="0.136">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.reservaInstance == reserva&#xa;|     |               |  |&#xa;[:]   null            |  futbol5.Reserva : (unsaved)&#xa;                      false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.reservaInstance == reserva
+|     |               |  |
+[:]   null            |  futbol5.Reserva : (unsaved)
+                      false
+
+	at futbol5.ReservaControllerSpec.Test that the show action returns the correct model(ReservaControllerSpec.groovy:75)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.ReservaControllerSpec" name="Test that the edit action returns the correct model" time="0.127">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.reservaInstance == reserva&#xa;|     |               |  |&#xa;[:]   null            |  futbol5.Reserva : (unsaved)&#xa;                      false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.reservaInstance == reserva
+|     |               |  |
+[:]   null            |  futbol5.Reserva : (unsaved)
+                      false
+
+	at futbol5.ReservaControllerSpec.Test that the edit action returns the correct model(ReservaControllerSpec.groovy:91)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.ReservaControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.409">
+          <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/reserva/index&apos;&#xa;|        |             |&#xa;|        /api/reservas false&#xa;|                      10 differences (28% similarity)&#xa;|                      /(api/)reserva(s-----)&#xa;|                      /(----)reserva(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@17b001b&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/reserva/index&apos;
+|        |             |
+|        /api/reservas false
+|                      10 differences (28% similarity)
+|                      /(api/)reserva(s-----)
+|                      /(----)reserva(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@17b001b
+
+	at futbol5.ReservaControllerSpec.Test the update action performs an update on a valid domain instance(ReservaControllerSpec.groovy:101)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.ReservaControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.166">
+          <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/reserva/index&apos;&#xa;|        |             |&#xa;|        /api/reservas false&#xa;|                      10 differences (28% similarity)&#xa;|                      /(api/)reserva(s-----)&#xa;|                      /(----)reserva(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e5af53&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/reserva/index&apos;
+|        |             |
+|        /api/reservas false
+|                      10 differences (28% similarity)
+|                      /(api/)reserva(s-----)
+|                      /(----)reserva(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@e5af53
+
+	at futbol5.ReservaControllerSpec.Test that the delete action deletes an instance if it exists(ReservaControllerSpec.groovy:133)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from listado de usuarios--
---Output from crear usuario--
---Output from borrar usuario--
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="6" hostname="Proyectos-PC" id="4" name="UsuarioControllerSpec" package="futbol5" tests="7" time="2.188" timestamp="2015-06-18T01:01:59">
+      <properties />
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="Test the index action returns the correct model" time="0.758">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.usuarioInstanceCount == 0&#xa;|     |                    |&#xa;[:]   null                 false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.usuarioInstanceCount == 0
+|     |                    |
+[:]   null                 false
+
+	at futbol5.UsuarioControllerSpec.Test the index action returns the correct model(UsuarioControllerSpec.groovy:25)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="Test the create action returns the correct model" time="0.176">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.usuarioInstance!= null&#xa;|     |              |&#xa;[:]   null           false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.usuarioInstance!= null
+|     |              |
+[:]   null           false
+
+	at futbol5.UsuarioControllerSpec.Test the create action returns the correct model(UsuarioControllerSpec.groovy:33)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="Test the save action correctly persists an instance" time="0.189">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.usuarioInstance!= null&#xa;|     |              |&#xa;[:]   null           false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.usuarioInstance!= null
+|     |              |
+[:]   null           false
+
+	at futbol5.UsuarioControllerSpec.Test the save action correctly persists an instance(UsuarioControllerSpec.groovy:46)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="Test that the show action returns the correct model" time="0.253">
+          <error message="No signature of method: futbol5.UsuarioController.show() is applicable for argument types: (null) values: [null]&#xa;Possible solutions: show(), show(), save(), save(), raw(java.lang.Object), raw(java.lang.Object)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: futbol5.UsuarioController.show() is applicable for argument types: (null) values: [null]
+Possible solutions: show(), show(), save(), save(), raw(java.lang.Object), raw(java.lang.Object)
+	at futbol5.UsuarioControllerSpec.Test that the show action returns the correct model(UsuarioControllerSpec.groovy:64)
+</error>
+
+      </testcase>
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="Test that the edit action returns the correct model" time="0.186">
+          <failure message="Condition not satisfied:&#xa;&#xa;model.usuarioInstance == usuario&#xa;|     |               |  |&#xa;[:]   null            |  futbol5.Usuario : (unsaved)&#xa;                      false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.usuarioInstance == usuario
+|     |               |  |
+[:]   null            |  futbol5.Usuario : (unsaved)
+                      false
+
+	at futbol5.UsuarioControllerSpec.Test that the edit action returns the correct model(UsuarioControllerSpec.groovy:91)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.33">
+          <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/usuario/index&apos;&#xa;|        |             |&#xa;|        /api/usuarios false&#xa;|                      10 differences (28% similarity)&#xa;|                      /(api/)usuario(s-----)&#xa;|                      /(----)usuario(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@11a30e5&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/usuario/index&apos;
+|        |             |
+|        /api/usuarios false
+|                      10 differences (28% similarity)
+|                      /(api/)usuario(s-----)
+|                      /(----)usuario(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@11a30e5
+
+	at futbol5.UsuarioControllerSpec.Test the update action performs an update on a valid domain instance(UsuarioControllerSpec.groovy:101)
+</failure>
+
+      </testcase>
+
+      <testcase classname="futbol5.UsuarioControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.154">
+          <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/usuario/index&apos;&#xa;|        |             |&#xa;|        /api/usuarios false&#xa;|                      10 differences (28% similarity)&#xa;|                      /(api/)usuario(s-----)&#xa;|                      /(----)usuario(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@37fb82&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/usuario/index&apos;
+|        |             |
+|        /api/usuarios false
+|                      10 differences (28% similarity)
+|                      /(api/)usuario(s-----)
+|                      /(----)usuario(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@37fb82
+
+	at futbol5.UsuarioControllerSpec.Test that the delete action deletes an instance if it exists(UsuarioControllerSpec.groovy:133)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
 ]]></system-err>
 
   </testsuite>
